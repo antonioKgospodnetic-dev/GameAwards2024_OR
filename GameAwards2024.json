@@ -1,25 +1,764 @@
 {
-    "Godina" : 2024, 
-    "Događaj" : "The Game Awards 2024", 
-    "Lokacija_događaja" : "Peacock Theater, Los Angeles, USA", 
-    "Voditelj" : "Geoff Keighley", 
-    "Kategorije" : 
-    [
-        {"Kategorija" : "Best Action Game", 
-        "Opis" : "Nagrada za najbolju igru koja se temelji prvenstveno na borbenom sustavu i akcijskom igranju.", 
-        "Nominirane_igre" : 
-        [
-            {
-                "Naziv_igre" : "Black Myth: Wukong", 
-                "Developer" : "Game Science", 
-                "Izdavač" : "Game Science",           
-                "Zemlja_podrijetla" : "China",            
-                "Platforme" : [ "PlayStation 5", "Windows", "Xbox Series X/S" ],             
-                "Žanr" : ["Action", "Role-playing"],            
-                "Prosječna_ocjena_(Metacritic)" : 90,             
-                "Pobjednik" : true,            
-                "Napomena" : "Akcijski RPG inspiriran kineskom mitologijom s impresivnim tehničkim postignućima."
-            },
-            {
-                "Naziv_igre" : "Call of Duty: Black Ops 6", 
-                "Developer" : "Treyarch", "Izdavač" : "Activision", "Zemlja_podrijetla" : "USA", "Platforme" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"], "Žanr" : ["First-person", "Shooter"], "Prosječna_ocjena_(Metacritic)" : 83, "Pobjednik" : false, "Napomena" : "Nastavak popularnog FPS serijala s fokusom na dinamičnu kampanju i višestruki multiplayer mod."}, {"Naziv_igre" : "Helldivers II", "Developer" : "Arrowhead Game Studios", "Izdavač" : "Sony Interactive Entertainment", "Zemlja_podrijetla" : "Sweden", "Platforme" : ["PlayStation 5", "Windows"], "Žanr" : ["Shooter", "Third-person"], "Prosječna_ocjena_(Metacritic)" : 86, "Pobjednik" : false, "Napomena" : "Kooperativni shooter s taktičkim izazovima i prijateljskim vatrom koji potiče suradnju igrača."}, {"Naziv_igre" : "Stellar Blade", "Developer" : "Shift Up", "Izdavač" : "Sony Interactive Entertainment", "Zemlja_podrijetla" : "South Korea", "Platforme" : ["PlayStation 5"], "Žanr" : ["Action-adventure", "Hack-and-slash"], "Prosječna_ocjena_(Metacritic)" : 85, "Pobjednik" : false, "Napomena" : "Akcijska avantura s fokusom na preciznu borbu i vizualno impresivne animacije."}, {"Naziv_igre" : "Warhammer 40,000: Space Marine 2", "Developer" : "Saber Interactive", "Izdavač" : "Focus Entertainment", "Zemlja_podrijetla" : "USA", "Platforme" : ["PlayStation 5", "Windows", "Xbox Series X/S"], "Žanr" : ["Hack-and-slash", "Shooter", "Third-person"], "Prosječna_ocjena_(Metacritic)" : 84, "Pobjednik" : false, "Napomena" : "Nastavak klasične akcijske igre s intenzivnim borbama protiv hordâ neprijatelja."}]}, {"Kategorija" : "Best Art Direction", "Opis" : "Nagrada za izvrsnost u vizualnom dizajnu i umjetničkoj prezentaciji igre.", "Nominirane_igre" : [{"Naziv_igre" : "Astro Bot", "Developer" : "Team Asobi", "Izdavač" : "Sony Interactive Entertainment", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 5"], "Žanr" : ["Action-adventure", "Platformer"], "Prosječna_ocjena_(Metacritic)" : 91, "Pobjednik" : false, "Napomena" : "Šarmantna 3D avantura s preciznom kontrolom i kreativnim korištenjem DualSense mogućnosti."}, {"Naziv_igre" : "Black Myth: Wukong", "Developer" : "Game Science", "Izdavač" : "Game Science", "Zemlja_podrijetla" : "China", "Platforme" : ["PlayStation 5", "Windows", "Xbox Series X/S"], "Žanr" : ["Action", "Role-playing"], "Prosječna_ocjena_(Metacritic)" : 90, "Pobjednik" : false, "Napomena" : "Akcijski RPG inspiriran kineskom mitologijom s impresivnim tehničkim postignućima."}, {"Naziv_igre" : "Elden Ring: Shadow of the Erdtree", "Developer" : "FromSoftware", "Izdavač" : "Bandai Namco Entertainment", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"], "Žanr" : ["Action", "Role-playing"], "Prosječna_ocjena_(Metacritic)" : 94, "Pobjednik" : false, "Napomena" : "Velika ekspanzija nagrađivane igre, poznata po dubokom dizajnu svijeta i izazovnim borbama."}, {"Naziv_igre" : "Metaphor: ReFantazio", "Developer" : "Atlus", "Izdavač" : "Sega", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox Series X/S"], "Žanr" : ["Role-playing"], "Prosječna_ocjena_(Metacritic)" : 88, "Pobjednik" : true, "Napomena" : "Pohvaljena zbog dubine svijeta, političke alegorije i složenog RPG sustava."}, {"Naziv_igre" : "Neva", "Developer" : "Nomada Studio", "Izdavač" : "Devolver Digital", "Zemlja_podrijetla" : "Spain", "Platforme" : ["Nintendo Switch", "PlayStation 5", "Windows", "Xbox Series X/S"], "Žanr" : ["Platformer", "Puzzle"], "Prosječna_ocjena_(Metacritic)" : 87, "Pobjednik" : false, "Napomena" : "Umjetnički platformer koji istražuje teme gubitka i emocionalne povezanosti."}]}, {"Kategorija" : "Best Audio Design", "Opis" : "Prepoznaje izvrsnost u dizajnu zvuka, glasovnim efektima i miksu.", "Nominirane_igre" : [{"Naziv_igre" : "Astro Bot", "Developer" : "Team Asobi", "Izdavač" : "Sony Interactive Entertainment", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 5"], "Žanr" : ["Action-adventure", "Platformer"], "Prosječna_ocjena_(Metacritic)" : 91, "Pobjednik" : false, "Napomena" : "Šarmantna 3D avantura s preciznom kontrolom i kreativnim korištenjem DualSense mogućnosti."}, {"Naziv_igre" : "Call of Duty: Black Ops 6", "Developer" : "Treyarch", "Izdavač" : "Activision", "Zemlja_podrijetla" : "USA", "Platforme" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"], "Žanr" : ["First-person", "Shooter"], "Prosječna_ocjena_(Metacritic)" : 83, "Pobjednik" : false, "Napomena" : "Nastavak popularnog FPS serijala s fokusom na dinamičnu kampanju i višestruki multiplayer mod."}, {"Naziv_igre" : "Final Fantasy VII Rebirth", "Developer" : "Square Enix", "Izdavač" : "Square Enix", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 5"], "Žanr" : ["Action", "Role-playing"], "Prosječna_ocjena_(Metacritic)" : 92, "Pobjednik" : false, "Napomena" : "Nastavlja reinterpretaciju originalnog FF7 s modernim borbenim sustavom i vizualima."}, {"Naziv_igre" : "Senua's Saga: Hellblade II", "Developer" : "Ninja Theory", "Izdavač" : "Xbox Game Studios", "Zemlja_podrijetla" : "UK", "Platforme" : ["Windows", "Xbox Series X/S"], "Žanr" : ["Action-adventure", "Hack-and-slash"], "Prosječna_ocjena_(Metacritic)" : 82, "Pobjednik" : true, "Napomena" : "Psihološka, kinematografska prezentacija perspektive Senuae."}, {"Naziv_igre" : "Silent Hill 2", "Developer" : "Bloober Team", "Izdavač" : "Konami", "Zemlja_podrijetla" : "Poland", "Platforme" : ["PlayStation 5", "Windows"], "Žanr" : ["Survival-horror"], "Prosječna_ocjena_(Metacritic)" : 81, "Pobjednik" : false, "Napomena" : "Remake klasika horor žanra s moderniziranom grafikom i atmosferom vjernom originalu."}]}, {"Kategorija" : "Best Esports Game", "Opis" : "Najbolja kompetitivna igra s aktivnom esports scenom.", "Nominirane_igre" : [{"Naziv_igre" : "Counter-Strike 2", "Developer" : "Valve", "Izdavač" : "Valve", "Zemlja_podrijetla" : "USA", "Platforme" : ["macOS", "Windows"], "Žanr" : ["First-person", "Shooter", "Tactical"], "Prosječna_ocjena_(Metacritic)" : 80, "Pobjednik" : false, "Napomena" : "Nasljednik legendarne CS:GO igre, s moderniziranim motorom i natjecateljskim značajkama."}, {"Naziv_igre" : "Dota 2", "Developer" : "Valve", "Izdavač" : "Valve", "Zemlja_podrijetla" : "USA", "Platforme" : ["Linux", "macOS", "Windows"], "Žanr" : ["MOBA"], "Prosječna_ocjena_(Metacritic)" : 90, "Pobjednik" : false, "Napomena" : "Kultna MOBA igra s najvećim esport nagradnim fondom i aktivnom zajednicom."}, {"Naziv_igre" : "League of Legends", "Developer" : "Riot Games", "Izdavač" : "Riot Games", "Zemlja_podrijetla" : "USA", "Platforme" : ["macOS", "Windows"], "Žanr" : ["MOBA"], "Prosječna_ocjena_(Metacritic)" : 78, "Pobjednik" : true, "Napomena" : "Jedan od najpopularnijih MOBA naslova, poznat po stalnim nadogradnjama i esport sceni."}, {"Naziv_igre" : "Mobile Legends: Bang Bang", "Developer" : "Moonton", "Izdavač" : "Moonton", "Zemlja_podrijetla" : "China", "Platforme" : ["Android", "iOS"], "Žanr" : ["MOBA"], "Prosječna_ocjena_(Metacritic)" : 75, "Pobjednik" : false, "Napomena" : "Najpopularniji mobilni MOBA naslov s velikom azijskom bazom igrača."}, {"Naziv_igre" : "Valorant", "Developer" : "Riot Games", "Izdavač" : "Riot Games", "Zemlja_podrijetla" : "USA", "Platforme" : ["Windows"], "Žanr" : ["Hero", "Shooter", "Tactical"], "Prosječna_ocjena_(Metacritic)" : 85, "Pobjednik" : false, "Napomena" : "Taktički FPS koji kombinira precizno pucanje i jedinstvene sposobnosti agenata."}]}, {"Kategorija" : "Best Independent Game", "Opis" : "Najbolja igra nezavisnog studija.", "Nominirane_igre" : [{"Naziv_igre" : "Animal Well", "Developer" : "Shared Memory", "Izdavač" : "Bigmode", "Zemlja_podrijetla" : "USA", "Platforme" : ["macOS", "Nintendo Switch", "PlayStation 5", "Windows"], "Žanr" : ["Metroidvania", "Puzzle"], "Prosječna_ocjena_(Metacritic)" : 90, "Pobjednik" : false, "Napomena" : "Atmosferski indie metroidvania s pažljivo dizajniranim zagonetkama i tajnovitim svijetom."}, {"Naziv_igre" : "Balatro", "Developer" : "LocalThunk", "Izdavač" : "Playstack", "Zemlja_podrijetla" : "UK", "Platforme" : ["Android", "iOS", "macOS", "Nintendo Switch", "PlayStation 4", "PlayStation 5", "Windows", "Xbox One"], "Žanr" : ["Deck-building", "Roguelike"], "Prosječna_ocjena_(Metacritic)" : 89, "Pobjednik" : true, "Napomena" : "Indie kartaška roguelike igra poznata po dubokoj mehanici i visokoj ovisnosti."}, {"Naziv_igre" : "Lorelei and the Laser Eyes", "Developer" : "Simogo", "Izdavač" : "Annapurna Interactive", "Zemlja_podrijetla" : "Sweden", "Platforme" : ["Nintendo Switch", "Windows"], "Žanr" : ["Puzzle"], "Prosječna_ocjena_(Metacritic)" : 88, "Pobjednik" : false, "Napomena" : "Apstraktna narativna zagonetka s fokusom na vizualnu simboliku i nelinearnu strukturu."}, {"Naziv_igre" : "Neva", "Developer" : "Nomada Studio", "Izdavač" : "Devolver Digital", "Zemlja_podrijetla" : "Spain", "Platforme" : ["Nintendo Switch", "PlayStation 5", "Windows", "Xbox Series X/S"], "Žanr" : ["Platformer", "Puzzle"], "Prosječna_ocjena_(Metacritic)" : 87, "Pobjednik" : false, "Napomena" : "Umjetnički platformer koji istražuje teme gubitka i emocionalne povezanosti."}, {"Naziv_igre" : "UFO 50", "Developer" : "Mossmouth", "Izdavač" : "Mossmouth", "Zemlja_podrijetla" : "USA", "Platforme" : ["Windows"], "Žanr" : ["Various"], "Prosječna_ocjena_(Metacritic)" : 85, "Pobjednik" : false, "Napomena" : "Kolekcija od 50 retro-stiliziranih igara koja istražuje različite žanrove i mehanike."}]}, {"Kategorija" : "Best Narrative", "Opis" : "Nagrada za najbolju priču i kvalitetu pripovijedanja.", "Nominirane_igre" : [{"Naziv_igre" : "Final Fantasy VII Rebirth", "Developer" : "Square Enix", "Izdavač" : "Square Enix", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 5"], "Žanr" : ["Action", "Role-playing"], "Prosječna_ocjena_(Metacritic)" : 92, "Pobjednik" : false, "Napomena" : "Nastavlja reinterpretaciju originalnog FF7 s modernim borbenim sustavom i vizualima."}, {"Naziv_igre" : "Like a Dragon: Infinite Wealth", "Developer" : "Ryu Ga Gotoku Studio", "Izdavač" : "Sega", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"], "Žanr" : ["Role-playing"], "Prosječna_ocjena_(Metacritic)" : 89, "Pobjednik" : false, "Napomena" : "Hvaljena zbog bogate priče, razvijenih likova i uspješne kombinacije drame, komedije i taktičkih borbi."}, {"Naziv_igre" : "Metaphor: ReFantazio", "Developer" : "Atlus", "Izdavač" : "Sega", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox Series X/S"], "Žanr" : ["Role-playing"], "Prosječna_ocjena_(Metacritic)" : 88, "Pobjednik" : true, "Napomena" : "Pohvaljena zbog dubine svijeta, političke alegorije i složenog RPG sustava."}, {"Naziv_igre" : "Senua's Saga: Hellblade II", "Developer" : "Ninja Theory", "Izdavač" : "Xbox Game Studios", "Zemlja_podrijetla" : "UK", "Platforme" : ["Windows", "Xbox Series X/S"], "Žanr" : ["Action-adventure", "Hack-and-slash"], "Prosječna_ocjena_(Metacritic)" : 82, "Pobjednik" : false, "Napomena" : "Psihološka, kinematografska prezentacija perspektive Senuae."}, {"Naziv_igre" : "Silent Hill 2", "Developer" : "Bloober Team", "Izdavač" : "Konami", "Zemlja_podrijetla" : "Poland", "Platforme" : ["PlayStation 5", "Windows"], "Žanr" : ["Survival-horror"], "Prosječna_ocjena_(Metacritic)" : 81, "Pobjednik" : false, "Napomena" : "Remake klasika horor žanra s moderniziranom grafikom i atmosferom vjernom originalu."}]}, {"Kategorija" : "Best Ongoing Game", "Opis" : "Nagrada za igru koja kontinuirano nudi novo iskustvo kroz ažuriranja i podršku zajednice.", "Nominirane_igre" : [{"Naziv_igre" : "Destiny 2: The Final Shape", "Developer" : "Bungie", "Izdavač" : "Bungie", "Zemlja_podrijetla" : "USA", "Platforme" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"], "Žanr" : ["First-person", "MMOG", "Shooter"], "Prosječna_ocjena_(Metacritic)" : 83, "Pobjednik" : false, "Napomena" : "Veliko završno poglavlje dugogodišnjeg FPS MMO serijala."}, {"Naziv_igre" : "Diablo IV: Vessel of Hatred", "Developer" : "Blizzard Entertainment", "Izdavač" : "Blizzard Entertainment", "Zemlja_podrijetla" : "USA", "Platforme" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"], "Žanr" : ["Action", "Dungeon-crawler", "Hack-and-slash", "Role-playing"], "Prosječna_ocjena_(Metacritic)" : 88, "Pobjednik" : false, "Napomena" : "Ekspanzija s novim likovima, klasama i mračnim narativom karakterističnim za serijal."}, {"Naziv_igre" : "Final Fantasy XIV: Dawntrail", "Developer" : "Square Enix", "Izdavač" : "Square Enix", "Zemlja_podrijetla" : "Japan", "Platforme" : ["macOS", "PlayStation 4", "PlayStation 5", "Windows", "Xbox Series X/S"], "Žanr" : ["MMORPG"], "Prosječna_ocjena_(Metacritic)" : 89, "Pobjednik" : false, "Napomena" : "Nova ekspanzija popularnog MMORPG-a koja donosi svjetliju i vedriju priču."}, {"Naziv_igre" : "Fortnite", "Developer" : "Epic Games", "Izdavač" : "Epic Games", "Zemlja_podrijetla" : "USA", "Platforme" : ["Android", "iOS", "macOS", "Nintendo Switch", "PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"], "Žanr" : ["Battle-royale", "Sandbox", "Survival"], "Prosječna_ocjena_(Metacritic)" : 85, "Pobjednik" : false, "Napomena" : "Stalno razvijajući battle royale s inovativnim suradnjama i kreativnim modovima."}, {"Naziv_igre" : "Helldivers II", "Developer" : "Arrowhead Game Studios", "Izdavač" : "Sony Interactive Entertainment", "Zemlja_podrijetla" : "Sweden", "Platforme" : ["PlayStation 5", "Windows"], "Žanr" : ["Shooter", "Third-person"], "Prosječna_ocjena_(Metacritic)" : 86, "Pobjednik" : true, "Napomena" : "Kooperativni shooter s taktičkim izazovima i prijateljskim vatrom koji potiče suradnju igrača."}]}, {"Kategorija" : "Best Score and Music", "Opis" : "Nagrada za najbolju originalnu glazbu, kompoziciju i produkciju zvuka.", "Nominirane_igre" : [{"Naziv_igre" : "Astro Bot", "Developer" : "Team Asobi", "Izdavač" : "Sony Interactive Entertainment", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 5"], "Žanr" : ["Action-adventure", "Platformer"], "Prosječna_ocjena_(Metacritic)" : 91, "Pobjednik" : false, "Napomena" : "Šarmantna 3D avantura s preciznom kontrolom i kreativnim korištenjem DualSense mogućnosti."}, {"Naziv_igre" : "Final Fantasy VII Rebirth", "Developer" : "Square Enix", "Izdavač" : "Square Enix", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 5"], "Žanr" : ["Action", "Role-playing"], "Prosječna_ocjena_(Metacritic)" : 92, "Pobjednik" : true, "Napomena" : "Nastavlja reinterpretaciju originalnog FF7 s modernim borbenim sustavom i vizualima."}, {"Naziv_igre" : "Metaphor: ReFantazio", "Developer" : "Atlus", "Izdavač" : "Sega", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox Series X/S"], "Žanr" : ["Role-playing"], "Prosječna_ocjena_(Metacritic)" : 88, "Pobjednik" : false, "Napomena" : "Pohvaljena zbog dubine svijeta, političke alegorije i složenog RPG sustava."}, {"Naziv_igre" : "Silent Hill 2", "Developer" : "Bloober Team", "Izdavač" : "Konami", "Zemlja_podrijetla" : "Poland", "Platforme" : ["PlayStation 5", "Windows"], "Žanr" : ["Survival-horror"], "Prosječna_ocjena_(Metacritic)" : 81, "Pobjednik" : false, "Napomena" : "Remake klasika horor žanra s moderniziranom grafikom i atmosferom vjernom originalu."}, {"Naziv_igre" : "Stellar Blade", "Developer" : "Shift Up", "Izdavač" : "Sony Interactive Entertainment", "Zemlja_podrijetla" : "South Korea", "Platforme" : ["PlayStation 5"], "Žanr" : ["Action-adventure", "Hack-and-slash"], "Prosječna_ocjena_(Metacritic)" : 85, "Pobjednik" : false, "Napomena" : "Akcijska avantura s fokusom na preciznu borbu i vizualno impresivne animacije."}]}, {"Kategorija" : "Game of the Year", "Opis" : "Igra koja je ostvarila najbolje ukupno iskustvo u svim kreativnim i tehničkim aspektima.", "Nominirane_igre" : [{"Naziv_igre" : "Astro Bot", "Developer" : "Team Asobi", "Izdavač" : "Sony Interactive Entertainment", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 5"], "Žanr" : ["Action-adventure", "Platformer"], "Prosječna_ocjena_(Metacritic)" : 91, "Pobjednik" : true, "Napomena" : "Šarmantna 3D avantura s preciznom kontrolom i kreativnim korištenjem DualSense mogućnosti."}, {"Naziv_igre" : "Balatro", "Developer" : "LocalThunk", "Izdavač" : "Playstack", "Zemlja_podrijetla" : "UK", "Platforme" : ["Android", "iOS", "macOS", "Nintendo Switch", "PlayStation 4", "PlayStation 5", "Windows", "Xbox One"], "Žanr" : ["Deck-building", "Roguelike"], "Prosječna_ocjena_(Metacritic)" : 89, "Pobjednik" : false, "Napomena" : "Indie kartaška roguelike igra poznata po dubokoj mehanici i visokoj ovisnosti."}, {"Naziv_igre" : "Black Myth: Wukong", "Developer" : "Game Science", "Izdavač" : "Game Science", "Zemlja_podrijetla" : "China", "Platforme" : ["PlayStation 5", "Windows", "Xbox Series X/S"], "Žanr" : ["Action", "Role-playing"], "Prosječna_ocjena_(Metacritic)" : 90, "Pobjednik" : false, "Napomena" : "Akcijski RPG inspiriran kineskom mitologijom s impresivnim tehničkim postignućima."}, {"Naziv_igre" : "Elden Ring: Shadow of the Erdtree", "Developer" : "FromSoftware", "Izdavač" : "Bandai Namco Entertainment", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"], "Žanr" : ["Action", "Role-playing"], "Prosječna_ocjena_(Metacritic)" : 94, "Pobjednik" : false, "Napomena" : "Velika ekspanzija nagrađivane igre, poznata po dubokom dizajnu svijeta i izazovnim borbama."}, {"Naziv_igre" : "Final Fantasy VII Rebirth", "Developer" : "Square Enix", "Izdavač" : "Square Enix", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 5"], "Žanr" : ["Action", "Role-playing"], "Prosječna_ocjena_(Metacritic)" : 92, "Pobjednik" : false, "Napomena" : "Nastavlja reinterpretaciju originalnog FF7 s modernim borbenim sustavom i vizualima."}, {"Naziv_igre" : "Metaphor: ReFantazio", "Developer" : "Atlus", "Izdavač" : "Sega", "Zemlja_podrijetla" : "Japan", "Platforme" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox Series X/S"], "Žanr" : ["Role-playing"], "Prosječna_ocjena_(Metacritic)" : 88, "Pobjednik" : false, "Napomena" : "Pohvaljena zbog dubine svijeta, političke alegorije i složenog RPG sustava."}]}, {"Kategorija" : "Innovation in Accessibility", "Opis" : "Nagrada za najbolje implementirane značajke pristupačnosti koje olakšavaju igranje osobama s različitim sposobnostima.", "Nominirane_igre" : [{"Naziv_igre" : "Call of Duty: Black Ops 6", "Developer" : "Treyarch", "Izdavač" : "Activision", "Zemlja_podrijetla" : "USA", "Platforme" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"], "Žanr" : ["First-person", "Shooter"], "Prosječna_ocjena_(Metacritic)" : 83, "Pobjednik" : false, "Napomena" : "Nastavak popularnog FPS serijala s fokusom na dinamičnu kampanju i višestruki multiplayer mod."}, {"Naziv_igre" : "Diablo IV: Vessel of Hatred", "Developer" : "Blizzard Entertainment", "Izdavač" : "Blizzard Entertainment", "Zemlja_podrijetla" : "USA", "Platforme" : ["PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"], "Žanr" : ["Action", "Dungeon-crawler", "Hack-and-slash", "Role-playing"], "Prosječna_ocjena_(Metacritic)" : 88, "Pobjednik" : false, "Napomena" : "Ekspanzija s novim likovima, klasama i mračnim narativom karakterističnim za serijal."}, {"Naziv_igre" : "Dragon Age: The Veilguard", "Developer" : "BioWare", "Izdavač" : "Electronic Arts", "Zemlja_podrijetla" : "Canada", "Platforme" : ["PlayStation 5", "Windows", "Xbox Series X/S"], "Žanr" : ["Action", "Role-playing"], "Prosječna_ocjena_(Metacritic)" : 0, "Pobjednik" : false, "Napomena" : "Nadolazeći nastavak poznatog RPG serijala s fokusom na priču i likove."}, {"Naziv_igre" : "Prince of Persia: The Lost Crown", "Developer" : "Ubisoft Montpellier", "Izdavač" : "Ubisoft", "Zemlja_podrijetla" : "France", "Platforme" : ["Nintendo Switch", "PlayStation 4", "PlayStation 5", "Windows", "Xbox One", "Xbox Series X/S"], "Žanr" : ["Metroidvania"], "Prosječna_ocjena_(Metacritic)" : 88, "Pobjednik" : true, "Napomena" : "Povratak klasičnog serijala u obliku 2.5D akcijske avanture s izvrsnim level dizajnom."}, {"Naziv_igre" : "Star Wars Outlaws", "Developer" : "Massive Entertainment", "Izdavač" : "Ubisoft", "Zemlja_podrijetla" : "Sweden", "Platforme" : ["PlayStation 5", "Windows", "Xbox Series X/S"], "Žanr" : ["Action-adventure"], "Prosječna_ocjena_(Metacritic)" : 0, "Pobjednik" : false, "Napomena" : "Open-world avantura smještena između Epizoda V i VI s fokusom na kriminalni svijet galaksije."}]}]}
+  "Godina": 2024,
+  "Događaj": "The Game Awards 2024",
+  "Lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+  "Voditelj": "Geoff Keighley",
+  "Kategorije": [
+    {
+      "Kategorija": "Best Action Game",
+      "Opis": "Nagrada za najbolju igru koja se temelji prvenstveno na borbenom sustavu i akcijskom igranju.",
+      "Nominirane_igre": [
+        {
+          "Naziv_igre": "Black Myth: Wukong",
+          "Developer": "Game Science",
+          "Izdavač": "Game Science",
+          "Zemlja_podrijetla": "China",
+          "Platforme": ["PlayStation 5", "Windows", "Xbox Series X/S"],
+          "Žanr": ["Action", "Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 90,
+          "Pobjednik": true,
+          "Napomena": "Akcijski RPG inspiriran kineskom mitologijom s impresivnim tehničkim postignućima."
+        },
+        {
+          "Naziv_igre": "Call of Duty: Black Ops 6",
+          "Developer": "Treyarch",
+          "Izdavač": "Activision",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": [
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox One",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["First-person", "Shooter"],
+          "Prosječna_ocjena_(Metacritic)": 83,
+          "Pobjednik": false,
+          "Napomena": "Nastavak popularnog FPS serijala s fokusom na dinamičnu kampanju i višestruki multiplayer mod."
+        },
+        {
+          "Naziv_igre": "Helldivers II",
+          "Developer": "Arrowhead Game Studios",
+          "Izdavač": "Sony Interactive Entertainment",
+          "Zemlja_podrijetla": "Sweden",
+          "Platforme": ["PlayStation 5", "Windows"],
+          "Žanr": ["Shooter", "Third-person"],
+          "Prosječna_ocjena_(Metacritic)": 86,
+          "Pobjednik": false,
+          "Napomena": "Kooperativni shooter s taktičkim izazovima i prijateljskim vatrom koji potiče suradnju igrača."
+        },
+        {
+          "Naziv_igre": "Stellar Blade",
+          "Developer": "Shift Up",
+          "Izdavač": "Sony Interactive Entertainment",
+          "Zemlja_podrijetla": "South Korea",
+          "Platforme": ["PlayStation 5"],
+          "Žanr": ["Action-adventure", "Hack-and-slash"],
+          "Prosječna_ocjena_(Metacritic)": 85,
+          "Pobjednik": false,
+          "Napomena": "Akcijska avantura s fokusom na preciznu borbu i vizualno impresivne animacije."
+        },
+        {
+          "Naziv_igre": "Warhammer 40,000: Space Marine 2",
+          "Developer": "Saber Interactive",
+          "Izdavač": "Focus Entertainment",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": ["PlayStation 5", "Windows", "Xbox Series X/S"],
+          "Žanr": ["Hack-and-slash", "Shooter", "Third-person"],
+          "Prosječna_ocjena_(Metacritic)": 84,
+          "Pobjednik": false,
+          "Napomena": "Nastavak klasične akcijske igre s intenzivnim borbama protiv hordâ neprijatelja."
+        }
+      ]
+    },
+    {
+      "Kategorija": "Best Art Direction",
+      "Opis": "Nagrada za izvrsnost u vizualnom dizajnu i umjetničkoj prezentaciji igre.",
+      "Nominirane_igre": [
+        {
+          "Naziv_igre": "Astro Bot",
+          "Developer": "Team Asobi",
+          "Izdavač": "Sony Interactive Entertainment",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": ["PlayStation 5"],
+          "Žanr": ["Action-adventure", "Platformer"],
+          "Prosječna_ocjena_(Metacritic)": 91,
+          "Pobjednik": false,
+          "Napomena": "Šarmantna 3D avantura s preciznom kontrolom i kreativnim korištenjem DualSense mogućnosti."
+        },
+        {
+          "Naziv_igre": "Black Myth: Wukong",
+          "Developer": "Game Science",
+          "Izdavač": "Game Science",
+          "Zemlja_podrijetla": "China",
+          "Platforme": ["PlayStation 5", "Windows", "Xbox Series X/S"],
+          "Žanr": ["Action", "Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 90,
+          "Pobjednik": false,
+          "Napomena": "Akcijski RPG inspiriran kineskom mitologijom s impresivnim tehničkim postignućima."
+        },
+        {
+          "Naziv_igre": "Elden Ring: Shadow of the Erdtree",
+          "Developer": "FromSoftware",
+          "Izdavač": "Bandai Namco Entertainment",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": [
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox One",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["Action", "Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 94,
+          "Pobjednik": false,
+          "Napomena": "Velika ekspanzija nagrađivane igre, poznata po dubokom dizajnu svijeta i izazovnim borbama."
+        },
+        {
+          "Naziv_igre": "Metaphor: ReFantazio",
+          "Developer": "Atlus",
+          "Izdavač": "Sega",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": [
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 88,
+          "Pobjednik": true,
+          "Napomena": "Pohvaljena zbog dubine svijeta, političke alegorije i složenog RPG sustava."
+        },
+        {
+          "Naziv_igre": "Neva",
+          "Developer": "Nomada Studio",
+          "Izdavač": "Devolver Digital",
+          "Zemlja_podrijetla": "Spain",
+          "Platforme": [
+            "Nintendo Switch",
+            "PlayStation 5",
+            "Windows",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["Platformer", "Puzzle"],
+          "Prosječna_ocjena_(Metacritic)": 87,
+          "Pobjednik": false,
+          "Napomena": "Umjetnički platformer koji istražuje teme gubitka i emocionalne povezanosti."
+        }
+      ]
+    },
+    {
+      "Kategorija": "Best Audio Design",
+      "Opis": "Prepoznaje izvrsnost u dizajnu zvuka, glasovnim efektima i miksu.",
+      "Nominirane_igre": [
+        {
+          "Naziv_igre": "Astro Bot",
+          "Developer": "Team Asobi",
+          "Izdavač": "Sony Interactive Entertainment",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": ["PlayStation 5"],
+          "Žanr": ["Action-adventure", "Platformer"],
+          "Prosječna_ocjena_(Metacritic)": 91,
+          "Pobjednik": false,
+          "Napomena": "Šarmantna 3D avantura s preciznom kontrolom i kreativnim korištenjem DualSense mogućnosti."
+        },
+        {
+          "Naziv_igre": "Call of Duty: Black Ops 6",
+          "Developer": "Treyarch",
+          "Izdavač": "Activision",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": [
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox One",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["First-person", "Shooter"],
+          "Prosječna_ocjena_(Metacritic)": 83,
+          "Pobjednik": false,
+          "Napomena": "Nastavak popularnog FPS serijala s fokusom na dinamičnu kampanju i višestruki multiplayer mod."
+        },
+        {
+          "Naziv_igre": "Final Fantasy VII Rebirth",
+          "Developer": "Square Enix",
+          "Izdavač": "Square Enix",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": ["PlayStation 5"],
+          "Žanr": ["Action", "Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 92,
+          "Pobjednik": false,
+          "Napomena": "Nastavlja reinterpretaciju originalnog FF7 s modernim borbenim sustavom i vizualima."
+        },
+        {
+          "Naziv_igre": "Senua's Saga: Hellblade II",
+          "Developer": "Ninja Theory",
+          "Izdavač": "Xbox Game Studios",
+          "Zemlja_podrijetla": "UK",
+          "Platforme": ["Windows", "Xbox Series X/S"],
+          "Žanr": ["Action-adventure", "Hack-and-slash"],
+          "Prosječna_ocjena_(Metacritic)": 82,
+          "Pobjednik": true,
+          "Napomena": "Psihološka, kinematografska prezentacija perspektive Senuae."
+        },
+        {
+          "Naziv_igre": "Silent Hill 2",
+          "Developer": "Bloober Team",
+          "Izdavač": "Konami",
+          "Zemlja_podrijetla": "Poland",
+          "Platforme": ["PlayStation 5", "Windows"],
+          "Žanr": ["Survival-horror"],
+          "Prosječna_ocjena_(Metacritic)": 81,
+          "Pobjednik": false,
+          "Napomena": "Remake klasika horor žanra s moderniziranom grafikom i atmosferom vjernom originalu."
+        }
+      ]
+    },
+    {
+      "Kategorija": "Best Esports Game",
+      "Opis": "Najbolja kompetitivna igra s aktivnom esports scenom.",
+      "Nominirane_igre": [
+        {
+          "Naziv_igre": "Counter-Strike 2",
+          "Developer": "Valve",
+          "Izdavač": "Valve",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": ["macOS", "Windows"],
+          "Žanr": ["First-person", "Shooter", "Tactical"],
+          "Prosječna_ocjena_(Metacritic)": 80,
+          "Pobjednik": false,
+          "Napomena": "Nasljednik legendarne CS:GO igre, s moderniziranim motorom i natjecateljskim značajkama."
+        },
+        {
+          "Naziv_igre": "Dota 2",
+          "Developer": "Valve",
+          "Izdavač": "Valve",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": ["Linux", "macOS", "Windows"],
+          "Žanr": ["MOBA"],
+          "Prosječna_ocjena_(Metacritic)": 90,
+          "Pobjednik": false,
+          "Napomena": "Kultna MOBA igra s najvećim esport nagradnim fondom i aktivnom zajednicom."
+        },
+        {
+          "Naziv_igre": "League of Legends",
+          "Developer": "Riot Games",
+          "Izdavač": "Riot Games",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": ["macOS", "Windows"],
+          "Žanr": ["MOBA"],
+          "Prosječna_ocjena_(Metacritic)": 78,
+          "Pobjednik": true,
+          "Napomena": "Jedan od najpopularnijih MOBA naslova, poznat po stalnim nadogradnjama i esport sceni."
+        },
+        {
+          "Naziv_igre": "Mobile Legends: Bang Bang",
+          "Developer": "Moonton",
+          "Izdavač": "Moonton",
+          "Zemlja_podrijetla": "China",
+          "Platforme": ["Android", "iOS"],
+          "Žanr": ["MOBA"],
+          "Prosječna_ocjena_(Metacritic)": 75,
+          "Pobjednik": false,
+          "Napomena": "Najpopularniji mobilni MOBA naslov s velikom azijskom bazom igrača."
+        },
+        {
+          "Naziv_igre": "Valorant",
+          "Developer": "Riot Games",
+          "Izdavač": "Riot Games",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": ["Windows"],
+          "Žanr": ["Hero", "Shooter", "Tactical"],
+          "Prosječna_ocjena_(Metacritic)": 85,
+          "Pobjednik": false,
+          "Napomena": "Taktički FPS koji kombinira precizno pucanje i jedinstvene sposobnosti agenata."
+        }
+      ]
+    },
+    {
+      "Kategorija": "Best Independent Game",
+      "Opis": "Najbolja igra nezavisnog studija.",
+      "Nominirane_igre": [
+        {
+          "Naziv_igre": "Animal Well",
+          "Developer": "Shared Memory",
+          "Izdavač": "Bigmode",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": ["macOS", "Nintendo Switch", "PlayStation 5", "Windows"],
+          "Žanr": ["Metroidvania", "Puzzle"],
+          "Prosječna_ocjena_(Metacritic)": 90,
+          "Pobjednik": false,
+          "Napomena": "Atmosferski indie metroidvania s pažljivo dizajniranim zagonetkama i tajnovitim svijetom."
+        },
+        {
+          "Naziv_igre": "Balatro",
+          "Developer": "LocalThunk",
+          "Izdavač": "Playstack",
+          "Zemlja_podrijetla": "UK",
+          "Platforme": [
+            "Android",
+            "iOS",
+            "macOS",
+            "Nintendo Switch",
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox One"
+          ],
+          "Žanr": ["Deck-building", "Roguelike"],
+          "Prosječna_ocjena_(Metacritic)": 89,
+          "Pobjednik": true,
+          "Napomena": "Indie kartaška roguelike igra poznata po dubokoj mehanici i visokoj ovisnosti."
+        },
+        {
+          "Naziv_igre": "Lorelei and the Laser Eyes",
+          "Developer": "Simogo",
+          "Izdavač": "Annapurna Interactive",
+          "Zemlja_podrijetla": "Sweden",
+          "Platforme": ["Nintendo Switch", "Windows"],
+          "Žanr": ["Puzzle"],
+          "Prosječna_ocjena_(Metacritic)": 88,
+          "Pobjednik": false,
+          "Napomena": "Apstraktna narativna zagonetka s fokusom na vizualnu simboliku i nelinearnu strukturu."
+        },
+        {
+          "Naziv_igre": "Neva",
+          "Developer": "Nomada Studio",
+          "Izdavač": "Devolver Digital",
+          "Zemlja_podrijetla": "Spain",
+          "Platforme": [
+            "Nintendo Switch",
+            "PlayStation 5",
+            "Windows",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["Platformer", "Puzzle"],
+          "Prosječna_ocjena_(Metacritic)": 87,
+          "Pobjednik": false,
+          "Napomena": "Umjetnički platformer koji istražuje teme gubitka i emocionalne povezanosti."
+        },
+        {
+          "Naziv_igre": "UFO 50",
+          "Developer": "Mossmouth",
+          "Izdavač": "Mossmouth",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": ["Windows"],
+          "Žanr": ["Various"],
+          "Prosječna_ocjena_(Metacritic)": 85,
+          "Pobjednik": false,
+          "Napomena": "Kolekcija od 50 retro-stiliziranih igara koja istražuje različite žanrove i mehanike."
+        }
+      ]
+    },
+    {
+      "Kategorija": "Best Narrative",
+      "Opis": "Nagrada za najbolju priču i kvalitetu pripovijedanja.",
+      "Nominirane_igre": [
+        {
+          "Naziv_igre": "Final Fantasy VII Rebirth",
+          "Developer": "Square Enix",
+          "Izdavač": "Square Enix",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": ["PlayStation 5"],
+          "Žanr": ["Action", "Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 92,
+          "Pobjednik": false,
+          "Napomena": "Nastavlja reinterpretaciju originalnog FF7 s modernim borbenim sustavom i vizualima."
+        },
+        {
+          "Naziv_igre": "Like a Dragon: Infinite Wealth",
+          "Developer": "Ryu Ga Gotoku Studio",
+          "Izdavač": "Sega",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": [
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox One",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 89,
+          "Pobjednik": false,
+          "Napomena": "Hvaljena zbog bogate priče, razvijenih likova i uspješne kombinacije drame, komedije i taktičkih borbi."
+        },
+        {
+          "Naziv_igre": "Metaphor: ReFantazio",
+          "Developer": "Atlus",
+          "Izdavač": "Sega",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": [
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 88,
+          "Pobjednik": true,
+          "Napomena": "Pohvaljena zbog dubine svijeta, političke alegorije i složenog RPG sustava."
+        },
+        {
+          "Naziv_igre": "Senua's Saga: Hellblade II",
+          "Developer": "Ninja Theory",
+          "Izdavač": "Xbox Game Studios",
+          "Zemlja_podrijetla": "UK",
+          "Platforme": ["Windows", "Xbox Series X/S"],
+          "Žanr": ["Action-adventure", "Hack-and-slash"],
+          "Prosječna_ocjena_(Metacritic)": 82,
+          "Pobjednik": false,
+          "Napomena": "Psihološka, kinematografska prezentacija perspektive Senuae."
+        },
+        {
+          "Naziv_igre": "Silent Hill 2",
+          "Developer": "Bloober Team",
+          "Izdavač": "Konami",
+          "Zemlja_podrijetla": "Poland",
+          "Platforme": ["PlayStation 5", "Windows"],
+          "Žanr": ["Survival-horror"],
+          "Prosječna_ocjena_(Metacritic)": 81,
+          "Pobjednik": false,
+          "Napomena": "Remake klasika horor žanra s moderniziranom grafikom i atmosferom vjernom originalu."
+        }
+      ]
+    },
+    {
+      "Kategorija": "Best Ongoing Game",
+      "Opis": "Nagrada za igru koja kontinuirano nudi novo iskustvo kroz ažuriranja i podršku zajednice.",
+      "Nominirane_igre": [
+        {
+          "Naziv_igre": "Destiny 2: The Final Shape",
+          "Developer": "Bungie",
+          "Izdavač": "Bungie",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": [
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox One",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["First-person", "MMOG", "Shooter"],
+          "Prosječna_ocjena_(Metacritic)": 83,
+          "Pobjednik": false,
+          "Napomena": "Veliko završno poglavlje dugogodišnjeg FPS MMO serijala."
+        },
+        {
+          "Naziv_igre": "Diablo IV: Vessel of Hatred",
+          "Developer": "Blizzard Entertainment",
+          "Izdavač": "Blizzard Entertainment",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": [
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox One",
+            "Xbox Series X/S"
+          ],
+          "Žanr": [
+            "Action",
+            "Dungeon-crawler",
+            "Hack-and-slash",
+            "Role-playing"
+          ],
+          "Prosječna_ocjena_(Metacritic)": 88,
+          "Pobjednik": false,
+          "Napomena": "Ekspanzija s novim likovima, klasama i mračnim narativom karakterističnim za serijal."
+        },
+        {
+          "Naziv_igre": "Final Fantasy XIV: Dawntrail",
+          "Developer": "Square Enix",
+          "Izdavač": "Square Enix",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": [
+            "macOS",
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["MMORPG"],
+          "Prosječna_ocjena_(Metacritic)": 89,
+          "Pobjednik": false,
+          "Napomena": "Nova ekspanzija popularnog MMORPG-a koja donosi svjetliju i vedriju priču."
+        },
+        {
+          "Naziv_igre": "Fortnite",
+          "Developer": "Epic Games",
+          "Izdavač": "Epic Games",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": [
+            "Android",
+            "iOS",
+            "macOS",
+            "Nintendo Switch",
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox One",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["Battle-royale", "Sandbox", "Survival"],
+          "Prosječna_ocjena_(Metacritic)": 85,
+          "Pobjednik": false,
+          "Napomena": "Stalno razvijajući battle royale s inovativnim suradnjama i kreativnim modovima."
+        },
+        {
+          "Naziv_igre": "Helldivers II",
+          "Developer": "Arrowhead Game Studios",
+          "Izdavač": "Sony Interactive Entertainment",
+          "Zemlja_podrijetla": "Sweden",
+          "Platforme": ["PlayStation 5", "Windows"],
+          "Žanr": ["Shooter", "Third-person"],
+          "Prosječna_ocjena_(Metacritic)": 86,
+          "Pobjednik": true,
+          "Napomena": "Kooperativni shooter s taktičkim izazovima i prijateljskim vatrom koji potiče suradnju igrača."
+        }
+      ]
+    },
+    {
+      "Kategorija": "Best Score and Music",
+      "Opis": "Nagrada za najbolju originalnu glazbu, kompoziciju i produkciju zvuka.",
+      "Nominirane_igre": [
+        {
+          "Naziv_igre": "Astro Bot",
+          "Developer": "Team Asobi",
+          "Izdavač": "Sony Interactive Entertainment",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": ["PlayStation 5"],
+          "Žanr": ["Action-adventure", "Platformer"],
+          "Prosječna_ocjena_(Metacritic)": 91,
+          "Pobjednik": false,
+          "Napomena": "Šarmantna 3D avantura s preciznom kontrolom i kreativnim korištenjem DualSense mogućnosti."
+        },
+        {
+          "Naziv_igre": "Final Fantasy VII Rebirth",
+          "Developer": "Square Enix",
+          "Izdavač": "Square Enix",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": ["PlayStation 5"],
+          "Žanr": ["Action", "Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 92,
+          "Pobjednik": true,
+          "Napomena": "Nastavlja reinterpretaciju originalnog FF7 s modernim borbenim sustavom i vizualima."
+        },
+        {
+          "Naziv_igre": "Metaphor: ReFantazio",
+          "Developer": "Atlus",
+          "Izdavač": "Sega",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": [
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 88,
+          "Pobjednik": false,
+          "Napomena": "Pohvaljena zbog dubine svijeta, političke alegorije i složenog RPG sustava."
+        },
+        {
+          "Naziv_igre": "Silent Hill 2",
+          "Developer": "Bloober Team",
+          "Izdavač": "Konami",
+          "Zemlja_podrijetla": "Poland",
+          "Platforme": ["PlayStation 5", "Windows"],
+          "Žanr": ["Survival-horror"],
+          "Prosječna_ocjena_(Metacritic)": 81,
+          "Pobjednik": false,
+          "Napomena": "Remake klasika horor žanra s moderniziranom grafikom i atmosferom vjernom originalu."
+        },
+        {
+          "Naziv_igre": "Stellar Blade",
+          "Developer": "Shift Up",
+          "Izdavač": "Sony Interactive Entertainment",
+          "Zemlja_podrijetla": "South Korea",
+          "Platforme": ["PlayStation 5"],
+          "Žanr": ["Action-adventure", "Hack-and-slash"],
+          "Prosječna_ocjena_(Metacritic)": 85,
+          "Pobjednik": false,
+          "Napomena": "Akcijska avantura s fokusom na preciznu borbu i vizualno impresivne animacije."
+        }
+      ]
+    },
+    {
+      "Kategorija": "Game of the Year",
+      "Opis": "Igra koja je ostvarila najbolje ukupno iskustvo u svim kreativnim i tehničkim aspektima.",
+      "Nominirane_igre": [
+        {
+          "Naziv_igre": "Astro Bot",
+          "Developer": "Team Asobi",
+          "Izdavač": "Sony Interactive Entertainment",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": ["PlayStation 5"],
+          "Žanr": ["Action-adventure", "Platformer"],
+          "Prosječna_ocjena_(Metacritic)": 91,
+          "Pobjednik": true,
+          "Napomena": "Šarmantna 3D avantura s preciznom kontrolom i kreativnim korištenjem DualSense mogućnosti."
+        },
+        {
+          "Naziv_igre": "Balatro",
+          "Developer": "LocalThunk",
+          "Izdavač": "Playstack",
+          "Zemlja_podrijetla": "UK",
+          "Platforme": [
+            "Android",
+            "iOS",
+            "macOS",
+            "Nintendo Switch",
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox One"
+          ],
+          "Žanr": ["Deck-building", "Roguelike"],
+          "Prosječna_ocjena_(Metacritic)": 89,
+          "Pobjednik": false,
+          "Napomena": "Indie kartaška roguelike igra poznata po dubokoj mehanici i visokoj ovisnosti."
+        },
+        {
+          "Naziv_igre": "Black Myth: Wukong",
+          "Developer": "Game Science",
+          "Izdavač": "Game Science",
+          "Zemlja_podrijetla": "China",
+          "Platforme": ["PlayStation 5", "Windows", "Xbox Series X/S"],
+          "Žanr": ["Action", "Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 90,
+          "Pobjednik": false,
+          "Napomena": "Akcijski RPG inspiriran kineskom mitologijom s impresivnim tehničkim postignućima."
+        },
+        {
+          "Naziv_igre": "Elden Ring: Shadow of the Erdtree",
+          "Developer": "FromSoftware",
+          "Izdavač": "Bandai Namco Entertainment",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": [
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox One",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["Action", "Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 94,
+          "Pobjednik": false,
+          "Napomena": "Velika ekspanzija nagrađivane igre, poznata po dubokom dizajnu svijeta i izazovnim borbama."
+        },
+        {
+          "Naziv_igre": "Final Fantasy VII Rebirth",
+          "Developer": "Square Enix",
+          "Izdavač": "Square Enix",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": ["PlayStation 5"],
+          "Žanr": ["Action", "Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 92,
+          "Pobjednik": false,
+          "Napomena": "Nastavlja reinterpretaciju originalnog FF7 s modernim borbenim sustavom i vizualima."
+        },
+        {
+          "Naziv_igre": "Metaphor: ReFantazio",
+          "Developer": "Atlus",
+          "Izdavač": "Sega",
+          "Zemlja_podrijetla": "Japan",
+          "Platforme": [
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 88,
+          "Pobjednik": false,
+          "Napomena": "Pohvaljena zbog dubine svijeta, političke alegorije i složenog RPG sustava."
+        }
+      ]
+    },
+    {
+      "Kategorija": "Innovation in Accessibility",
+      "Opis": "Nagrada za najbolje implementirane značajke pristupačnosti koje olakšavaju igranje osobama s različitim sposobnostima.",
+      "Nominirane_igre": [
+        {
+          "Naziv_igre": "Call of Duty: Black Ops 6",
+          "Developer": "Treyarch",
+          "Izdavač": "Activision",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": [
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox One",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["First-person", "Shooter"],
+          "Prosječna_ocjena_(Metacritic)": 83,
+          "Pobjednik": false,
+          "Napomena": "Nastavak popularnog FPS serijala s fokusom na dinamičnu kampanju i višestruki multiplayer mod."
+        },
+        {
+          "Naziv_igre": "Diablo IV: Vessel of Hatred",
+          "Developer": "Blizzard Entertainment",
+          "Izdavač": "Blizzard Entertainment",
+          "Zemlja_podrijetla": "USA",
+          "Platforme": [
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox One",
+            "Xbox Series X/S"
+          ],
+          "Žanr": [
+            "Action",
+            "Dungeon-crawler",
+            "Hack-and-slash",
+            "Role-playing"
+          ],
+          "Prosječna_ocjena_(Metacritic)": 88,
+          "Pobjednik": false,
+          "Napomena": "Ekspanzija s novim likovima, klasama i mračnim narativom karakterističnim za serijal."
+        },
+        {
+          "Naziv_igre": "Dragon Age: The Veilguard",
+          "Developer": "BioWare",
+          "Izdavač": "Electronic Arts",
+          "Zemlja_podrijetla": "Canada",
+          "Platforme": ["PlayStation 5", "Windows", "Xbox Series X/S"],
+          "Žanr": ["Action", "Role-playing"],
+          "Prosječna_ocjena_(Metacritic)": 0,
+          "Pobjednik": false,
+          "Napomena": "Nadolazeći nastavak poznatog RPG serijala s fokusom na priču i likove."
+        },
+        {
+          "Naziv_igre": "Prince of Persia: The Lost Crown",
+          "Developer": "Ubisoft Montpellier",
+          "Izdavač": "Ubisoft",
+          "Zemlja_podrijetla": "France",
+          "Platforme": [
+            "Nintendo Switch",
+            "PlayStation 4",
+            "PlayStation 5",
+            "Windows",
+            "Xbox One",
+            "Xbox Series X/S"
+          ],
+          "Žanr": ["Metroidvania"],
+          "Prosječna_ocjena_(Metacritic)": 88,
+          "Pobjednik": true,
+          "Napomena": "Povratak klasičnog serijala u obliku 2.5D akcijske avanture s izvrsnim level dizajnom."
+        },
+        {
+          "Naziv_igre": "Star Wars Outlaws",
+          "Developer": "Massive Entertainment",
+          "Izdavač": "Ubisoft",
+          "Zemlja_podrijetla": "Sweden",
+          "Platforme": ["PlayStation 5", "Windows", "Xbox Series X/S"],
+          "Žanr": ["Action-adventure"],
+          "Prosječna_ocjena_(Metacritic)": 0,
+          "Pobjednik": false,
+          "Napomena": "Open-world avantura smještena između Epizoda V i VI s fokusom na kriminalni svijet galaksije."
+        }
+      ]
+    }
+  ]
+}
