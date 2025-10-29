@@ -1,0 +1,52 @@
+"kategorija","naziv_igre","developer","izdavac","zemlja_podrijetla","prosjecna_ocjena_metacritic","pobjednik","zanrovi","platforme"
+Best Action Game,Black Myth: Wukong,Game Science,Game Science,China,90,true,"Action, Role-playing","PlayStation 5, Windows, Xbox Series X/S"
+Best Action Game,Call of Duty: Black Ops 6,Treyarch,Activision,USA,83,false,"First-person, Shooter","PlayStation 4, PlayStation 5, Windows, Xbox One, Xbox Series X/S"
+Best Action Game,Helldivers II,Arrowhead Game Studios,Sony Interactive Entertainment,Sweden,86,false,"Shooter, Third-person","PlayStation 5, Windows"
+Best Action Game,Stellar Blade,Shift Up,Sony Interactive Entertainment,South Korea,85,false,"Action-adventure, Hack-and-slash",PlayStation 5
+Best Action Game,"Warhammer 40,000: Space Marine 2",Saber Interactive,Focus Entertainment,USA,84,false,"Hack-and-slash, Shooter, Third-person","PlayStation 5, Windows, Xbox Series X/S"
+Best Art Direction,Astro Bot,Team Asobi,Sony Interactive Entertainment,Japan,91,false,"Action-adventure, Platformer",PlayStation 5
+Best Art Direction,Black Myth: Wukong,Game Science,Game Science,China,90,false,"Action, Role-playing","PlayStation 5, Windows, Xbox Series X/S"
+Best Art Direction,Elden Ring: Shadow of the Erdtree,FromSoftware,Bandai Namco Entertainment,Japan,94,false,"Action, Role-playing","PlayStation 4, PlayStation 5, Windows, Xbox One, Xbox Series X/S"
+Best Art Direction,Metaphor: ReFantazio,Atlus,Sega,Japan,88,true,Role-playing,"PlayStation 4, PlayStation 5, Windows, Xbox Series X/S"
+Best Art Direction,Neva,Nomada Studio,Devolver Digital,Spain,87,false,"Platformer, Puzzle","Nintendo Switch, PlayStation 5, Windows, Xbox Series X/S"
+Best Audio Design,Astro Bot,Team Asobi,Sony Interactive Entertainment,Japan,91,false,"Action-adventure, Platformer",PlayStation 5
+Best Audio Design,Call of Duty: Black Ops 6,Treyarch,Activision,USA,83,false,"First-person, Shooter","PlayStation 4, PlayStation 5, Windows, Xbox One, Xbox Series X/S"
+Best Audio Design,Final Fantasy VII Rebirth,Square Enix,Square Enix,Japan,92,false,"Action, Role-playing",PlayStation 5
+Best Audio Design,Senua's Saga: Hellblade II,Ninja Theory,Xbox Game Studios,UK,82,true,"Action-adventure, Hack-and-slash","Windows, Xbox Series X/S"
+Best Audio Design,Silent Hill 2,Bloober Team,Konami,Poland,81,false,Survival-horror,"PlayStation 5, Windows"
+Best Esports Game,Counter-Strike 2,Valve,Valve,USA,80,false,"First-person, Shooter, Tactical","macOS, Windows"
+Best Esports Game,Dota 2,Valve,Valve,USA,90,false,MOBA,"Linux, macOS, Windows"
+Best Esports Game,League of Legends,Riot Games,Riot Games,USA,78,true,MOBA,"macOS, Windows"
+Best Esports Game,Mobile Legends: Bang Bang,Moonton,Moonton,China,75,false,MOBA,"Android, iOS"
+Best Esports Game,Valorant,Riot Games,Riot Games,USA,85,false,"Hero, Shooter, Tactical",Windows
+Best Independent Game,Animal Well,Shared Memory,Bigmode,USA,90,false,"Metroidvania, Puzzle","macOS, Nintendo Switch, PlayStation 5, Windows"
+Best Independent Game,Balatro,LocalThunk,Playstack,UK,89,true,"Deck-building, Roguelike","Android, iOS, macOS, Nintendo Switch, PlayStation 4, PlayStation 5, Windows, Xbox One"
+Best Independent Game,Lorelei and the Laser Eyes,Simogo,Annapurna Interactive,Sweden,88,false,Puzzle,"Nintendo Switch, Windows"
+Best Independent Game,Neva,Nomada Studio,Devolver Digital,Spain,87,false,"Platformer, Puzzle","Nintendo Switch, PlayStation 5, Windows, Xbox Series X/S"
+Best Independent Game,UFO 50,Mossmouth,Mossmouth,USA,85,false,Various,Windows
+Best Narrative,Final Fantasy VII Rebirth,Square Enix,Square Enix,Japan,92,false,"Action, Role-playing",PlayStation 5
+Best Narrative,Like a Dragon: Infinite Wealth,Ryu Ga Gotoku Studio,Sega,Japan,89,false,Role-playing,"PlayStation 4, PlayStation 5, Windows, Xbox One, Xbox Series X/S"
+Best Narrative,Metaphor: ReFantazio,Atlus,Sega,Japan,88,true,Role-playing,"PlayStation 4, PlayStation 5, Windows, Xbox Series X/S"
+Best Narrative,Senua's Saga: Hellblade II,Ninja Theory,Xbox Game Studios,UK,82,false,"Action-adventure, Hack-and-slash","Windows, Xbox Series X/S"
+Best Narrative,Silent Hill 2,Bloober Team,Konami,Poland,81,false,Survival-horror,"PlayStation 5, Windows"
+Best Ongoing Game,Destiny 2: The Final Shape,Bungie,Bungie,USA,83,false,"First-person, MMOG, Shooter","PlayStation 4, PlayStation 5, Windows, Xbox One, Xbox Series X/S"
+Best Ongoing Game,Diablo IV: Vessel of Hatred,Blizzard Entertainment,Blizzard Entertainment,USA,88,false,"Action, Dungeon-crawler, Hack-and-slash, Role-playing","PlayStation 4, PlayStation 5, Windows, Xbox One, Xbox Series X/S"
+Best Ongoing Game,Final Fantasy XIV: Dawntrail,Square Enix,Square Enix,Japan,89,false,MMORPG,"macOS, PlayStation 4, PlayStation 5, Windows, Xbox Series X/S"
+Best Ongoing Game,Fortnite,Epic Games,Epic Games,USA,85,false,"Battle-royale, Sandbox, Survival","Android, iOS, macOS, Nintendo Switch, PlayStation 4, PlayStation 5, Windows, Xbox One, Xbox Series X/S"
+Best Ongoing Game,Helldivers II,Arrowhead Game Studios,Sony Interactive Entertainment,Sweden,86,true,"Shooter, Third-person","PlayStation 5, Windows"
+Best Score and Music,Astro Bot,Team Asobi,Sony Interactive Entertainment,Japan,91,false,"Action-adventure, Platformer",PlayStation 5
+Best Score and Music,Final Fantasy VII Rebirth,Square Enix,Square Enix,Japan,92,true,"Action, Role-playing",PlayStation 5
+Best Score and Music,Metaphor: ReFantazio,Atlus,Sega,Japan,88,false,Role-playing,"PlayStation 4, PlayStation 5, Windows, Xbox Series X/S"
+Best Score and Music,Silent Hill 2,Bloober Team,Konami,Poland,81,false,Survival-horror,"PlayStation 5, Windows"
+Best Score and Music,Stellar Blade,Shift Up,Sony Interactive Entertainment,South Korea,85,false,"Action-adventure, Hack-and-slash",PlayStation 5
+Game of the Year,Astro Bot,Team Asobi,Sony Interactive Entertainment,Japan,91,true,"Action-adventure, Platformer",PlayStation 5
+Game of the Year,Balatro,LocalThunk,Playstack,UK,89,false,"Deck-building, Roguelike","Android, iOS, macOS, Nintendo Switch, PlayStation 4, PlayStation 5, Windows, Xbox One"
+Game of the Year,Black Myth: Wukong,Game Science,Game Science,China,90,false,"Action, Role-playing","PlayStation 5, Windows, Xbox Series X/S"
+Game of the Year,Elden Ring: Shadow of the Erdtree,FromSoftware,Bandai Namco Entertainment,Japan,94,false,"Action, Role-playing","PlayStation 4, PlayStation 5, Windows, Xbox One, Xbox Series X/S"
+Game of the Year,Final Fantasy VII Rebirth,Square Enix,Square Enix,Japan,92,false,"Action, Role-playing",PlayStation 5
+Game of the Year,Metaphor: ReFantazio,Atlus,Sega,Japan,88,false,Role-playing,"PlayStation 4, PlayStation 5, Windows, Xbox Series X/S"
+Innovation in Accessibility,Call of Duty: Black Ops 6,Treyarch,Activision,USA,83,false,"First-person, Shooter","PlayStation 4, PlayStation 5, Windows, Xbox One, Xbox Series X/S"
+Innovation in Accessibility,Diablo IV: Vessel of Hatred,Blizzard Entertainment,Blizzard Entertainment,USA,88,false,"Action, Dungeon-crawler, Hack-and-slash, Role-playing","PlayStation 4, PlayStation 5, Windows, Xbox One, Xbox Series X/S"
+Innovation in Accessibility,Dragon Age: The Veilguard,BioWare,Electronic Arts,Canada,0,false,"Action, Role-playing","PlayStation 5, Windows, Xbox Series X/S"
+Innovation in Accessibility,Prince of Persia: The Lost Crown,Ubisoft Montpellier,Ubisoft,France,88,true,Metroidvania,"Nintendo Switch, PlayStation 4, PlayStation 5, Windows, Xbox One, Xbox Series X/S"
+Innovation in Accessibility,Star Wars Outlaws,Massive Entertainment,Ubisoft,Sweden,0,false,Action-adventure,"PlayStation 5, Windows, Xbox Series X/S"
