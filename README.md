@@ -20,17 +20,19 @@ Otvorena baza podataka na temu događaja **The Game Awards 2024**.
    - `Događaj` - naziv događaja u kojem su se nominirale igre
    - `Lokacija_događaja` - lokacija odrzavanja događaja
    - `Voditelj` - ime i prezime voditelja događaja
+
    
    - `Kategorija` – naziv kategorije u kojoj je igra nominirana
    - `Opis` – opis kategorije
+
 
    - `Naziv_igre` – naziv igre  
    - `Developer` – studio koji je razvio igru  
    - `Izdavač` – izdavač igre  
    - `Zemlja_podrijetla` – zemlja podrijetla developera
    - `Platforme` – popis platformi na kojima je igra dostupna  
-   - `Zanrovi` – popis žanrova kojima igra pripada  
-   - `Prosjecna_ocjena_metacritic` – prosječna ocjena igre  
+   - `Žanr` – popis žanrova kojima igra pripada  
+   - `Prosjecna_ocjena_(Metacritic)` – prosječna ocjena igre  
    - `Pobjednik` – označava je li igra osvojila nagradu (true/false) u toj kategoriji 
 11. **Datum izrade:** listopad 2025.
 
