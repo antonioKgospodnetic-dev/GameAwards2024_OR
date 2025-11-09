@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/antonioKgospodnetic-dev/GameAwards2024_OR/blob/main/GameAwards2024.json",
+  "title": "GameAwards2024_OR",
+  "description": "Otvorena baza podataka na temu događaja \"The Game Awards 2024\" ",
+  "type": "object",
+  "properties": {
+    "Godina": {
+      "type": "number",
+      "title": "Godina",
+      "description": "Godina održavanja događaja."
+    },
+    "Događaj": {
+      "type": "string",
+      "title": "Događaj",
+      "description": "Naziv događaja u kojem su se nominirale igre."
+    },
+    "Lokacija_događaja": {
+      "type": "string",
+      "title": "Lokacija događaja",
+      "description": "Lokacija odrzavanja događaja."
+    },
+    "Voditelj": {
+      "type": "string",
+      "title": "Voditelj",
+      "description": "Ime i prezime voditelja događaja."
+    },
+    "Kategorije": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Kategorija": {
+            "type": "string",
+            "title": "Kategorija",
+            "description": "Naziv kategorije u kojoj je igra nominirana."
+          },
+          "Opis": {
+            "type": "string",
+            "title": "Opis",
+            "description": "Opis kategorije."
+          },
+          "Nominirane_igre": {
+            "type": "array",
+            "title": "Nominirane igre",
+            "description": "Objekt koji sadrži sve podatke o jednoj nominiranoj igri u nekoj kategoriji.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Naziv_igre": {
+                  "type": "string",
+                  "title": "Naziv igre",
+                  "description": "Naziv igre."
+                },
+                "Developer": {
+                  "type": "string",
+                  "title": "Developer",
+                  "description": "Studio koji je razvio igru."
+                },
+                "Izdavač": {
+                  "type": "string",
+                  "title": "Izdavač",
+                  "description": "Izdavač igre."
+                },
+                "Zemlja_podrijetla": {
+                  "type": "string",
+                  "title": "Zemlja podrijetla",
+                  "description": "Zemlja podrijetla developera."
+                },
+                "Platforme": {
+                  "type": "array",
+                  "title": "Platforme",
+                  "description": "Popis platformi na kojima je igra dostupna.",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "Žanr": {
+                  "type": "array",
+                  "title": "Žanr",
+                  "description": "Popis žanrova kojima igra pripada.",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "Prosječna_ocjena_(Metacritic)": {
+                  "type": "number",
+                  "title": "Prosječna ocjena (Metacritic)",
+                  "description": "Prosječna ocjena igre."
+                },
+                "Pobjednik": {
+                  "type": "boolean",
+                  "title": "Pobjednik",
+                  "description": "Označava je li igra osvojila nagradu (true/false) u toj kategoriji."
+                },
+                "Napomena": {
+                  "type": "string",
+                  "title": "Napomena",
+                  "description": "Dodatna napomena vezana za igru."
+                }
+              },
+              "required": [
+                "Naziv_igre",
+                "Developer",
+                "Izdavač",
+                "Zemlja_podrijetla",
+                "Platforme",
+                "Žanr",
+                "Prosječna_ocjena_(Metacritic)",
+                "Pobjednik"
+              ]
+            }
+          }
+        },
+        "required": [
+          "Kategorija",
+          "Opis",
+          "Nominirane_igre"
+        ]
+      }
+    }
+  },
+  "required": [
+    "Godina",
+    "Događaj",
+    "Lokacija_događaja",
+    "Voditelj",
+    "Kategorije"
+  ]
+}
