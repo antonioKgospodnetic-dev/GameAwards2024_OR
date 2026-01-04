@@ -1,0 +1,629 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "GameAwards2024 - REST API",
+    "version": "1.0.0",
+    "description": "REST API for Game Awards dataset (LAB 3). All responses are wrapped as { status, message, response }.",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "paths": {
+    "/api/v1/igre": {
+      "get": {
+        "summary": "Get all games",
+        "description": "Returns all games with aggregated platforms and genres arrays.",
+        "responses": {
+          "200": {
+            "description": "Fetched games",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperGetGames" }
+              }
+            }
+          },
+          "500": {
+            "description": "Database error",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperNull" }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a game",
+        "requestBody": {
+          "required": true,
+          "description": "Game fields for insertion. naziv_igre is typically required by DB constraints.",
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/RequestBodyGame" },
+              "examples": {
+                "example": {
+                  "value": {
+                    "naziv_igre": "A Moja Nova Igra",
+                    "developer": "Developer Co",
+                    "izdavac": "Izdavac Co",
+                    "zemlja_podrijetla": "Hrvatska",
+                    "prosjecna_ocjena_metacritic": 90,
+                    "napomena": "Test JSON"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Game created",
+            "headers": {
+              "Location": {
+                "description": "URL of created game",
+                "schema": { "type": "string" }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperPostGame" }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request - missing required field (DB NOT NULL violation)",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperNull" }
+              }
+            }
+          },
+          "409": {
+            "description": "Conflict - game with same naziv_igre already exists",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperNull" }
+              }
+            }
+          },
+          "500": {
+            "description": "Database error",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperNull" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "/api/v1/igre/{id}": {
+      "get": {
+        "summary": "Get game by ID",
+        "parameters": [
+          { "$ref": "#/components/parameters/GameId" }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fetched game",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperGetGame" }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - ID must be a number",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperNull" }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found - game doesn't exist",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperNull" }
+              }
+            }
+          },
+          "500": {
+            "description": "Database error",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperNull" }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Update game by ID",
+        "parameters": [
+          { "$ref": "#/components/parameters/GameId" }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": { "schema": { "$ref": "#/components/schemas/RequestBodyGame" } }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Game updated",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperPutGame" } }
+            }
+          },
+          "400": {
+            "description": "Bad Request - ID must be a number",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          },
+          "404": {
+            "description": "Not Found - game doesn't exist",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          },
+          "409": {
+            "description": "Conflict - game with same naziv_igre already exists",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          },
+          "500": {
+            "description": "Database error",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete game by ID",
+        "parameters": [
+          { "$ref": "#/components/parameters/GameId" }
+        ],
+        "responses": {
+          "200": {
+            "description": "Game deleted",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperDeleteGame" } }
+            }
+          },
+          "400": {
+            "description": "Bad Request - ID must be a number",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          },
+          "404": {
+            "description": "Not Found - game doesn't exist",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          },
+          "500": {
+            "description": "Database error",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          }
+        }
+      }
+    },
+
+    "/api/v1/igre/{id}/zanrovi": {
+      "get": {
+        "summary": "Get genres for a game",
+        "parameters": [
+          { "$ref": "#/components/parameters/GameId" }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fetched game genres",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperGetGameGenres" }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - ID must be a number",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          },
+          "404": {
+            "description": "Not Found - game doesn't exist",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          },
+          "500": {
+            "description": "Database error",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          }
+        }
+      }
+    },
+
+    "/api/v1/igre/{id}/platforme": {
+      "get": {
+        "summary": "Get platforms for a game",
+        "parameters": [
+          { "$ref": "#/components/parameters/GameId" }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fetched game platforms",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperGetGamePlatforms" }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - ID must be a number",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          },
+          "404": {
+            "description": "Not Found - game doesn't exist",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          },
+          "500": {
+            "description": "Database error",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          }
+        }
+      }
+    },
+
+    "/api/v1/kategorije": {
+      "get": {
+        "summary": "Get all categories",
+        "responses": {
+          "200": {
+            "description": "Fetched categories",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperCategories" }
+              }
+            }
+          },
+          "500": {
+            "description": "Database error",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          }
+        }
+      }
+    },
+
+    "/api/v1/kategorije/{id}": {
+      "get": {
+        "summary": "Get category by ID",
+        "parameters": [
+          { "$ref": "#/components/parameters/CategoryId" }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fetched category",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperCategory" }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - ID must be a number",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          },
+          "404": {
+            "description": "Not Found - category doesn't exist",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          },
+          "500": {
+            "description": "Database error",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          }
+        }
+      }
+    },
+
+    "/api/v1/kategorije/{id}/nominacije": {
+      "get": {
+        "summary": "Get nominations for a category",
+        "parameters": [
+          { "$ref": "#/components/parameters/CategoryId" }
+        ],
+        "responses": {
+          "200": {
+            "description": "Fetched nominations",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/WrapperNominations" }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request - ID must be a number",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          },
+          "404": {
+            "description": "Not Found - category doesn't exist",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          },
+          "500": {
+            "description": "Database error",
+            "content": {
+              "application/json": { "schema": { "$ref": "#/components/schemas/WrapperNull" } }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "components": {
+    "parameters": {
+      "GameId": {
+        "name": "id",
+        "in": "path",
+        "required": true,
+        "description": "Game ID",
+        "schema": { "type": "integer", "format": "int64" }
+      },
+      "CategoryId": {
+        "name": "id",
+        "in": "path",
+        "required": true,
+        "description": "Category ID",
+        "schema": { "type": "integer", "format": "int64" }
+      }
+    },
+    "schemas": {
+      "ResponseGame": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "naziv_igre": { "type": "string" },
+          "developer": { "type": "string", "nullable": true },
+          "izdavač": { "type": "string", "nullable": true },
+          "zemlja_podrijetla": { "type": "string", "nullable": true },
+          "platforme": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "zanrovi": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "prosjecna_ocjena_metacritic": { "type": "number", "nullable": true },
+          "napomena": { "type": "string", "nullable": true }
+        },
+        "required": ["id", "naziv_igre"]
+      },
+
+      "ResponseGameCreated": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "naziv_igre": { "type": "string" },
+          "developer": { "type": "string", "nullable": true },
+          "izdavac": { "type": "string", "nullable": true },
+          "zemlja_podrijetla": { "type": "string", "nullable": true },
+          "prosjecna_ocjena_metacritic": { "type": "number", "nullable": true },
+          "napomena": { "type": "string", "nullable": true }
+        },
+        "required": ["id", "naziv_igre"]
+      },
+
+      "RequestBodyGame": {
+        "type": "object",
+        "properties": {
+          "naziv_igre": { "type": "string" },
+          "developer": { "type": "string" },
+          "izdavac": { "type": "string" },
+          "zemlja_podrijetla": { "type": "string" },
+          "prosjecna_ocjena_metacritic": { "type": "number" },
+          "napomena": { "type": "string" }
+        },
+        "required": ["naziv_igre"]
+      },
+
+      "ResponseCategory": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "naziv": { "type": "string" },
+          "opis": { "type": "string", "nullable": true }
+        },
+        "required": ["id", "naziv"]
+      },
+
+      "ResponseNomination": {
+        "type": "object",
+        "properties": {
+          "nominacija_id": { "type": "integer" },
+          "naziv_kategorije": { "type": "string" },
+          "igra_id": { "type": "integer" },
+          "naziv_igre": { "type": "string" },
+          "pobjednik": { "type": "boolean" }
+        },
+        "required": ["nominacija_id", "igra_id"]
+      },
+
+      "ResponseGameGenres": {
+        "type": "object",
+        "properties": {
+          "zanrovi": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "required": ["zanrovi"]
+      },
+
+      "ResponseGamePlatforms": {
+        "type": "object",
+        "properties": {
+          "platforme": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "required": ["platforme"]
+      },
+
+      "WrapperNull": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "message": { "type": "string" },
+          "response": { "nullable": true }
+        },
+        "required": ["status", "message", "response"]
+      },
+
+      "WrapperGetGame": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "message": { "type": "string" },
+          "response": { "$ref": "#/components/schemas/ResponseGame" }
+        },
+        "required": ["status", "message", "response"]
+      },
+
+      "WrapperGetGames": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "message": { "type": "string" },
+          "response": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/ResponseGame" }
+          }
+        },
+        "required": ["status", "message", "response"]
+      },
+
+      "WrapperPostGame": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string", "example": "OK" },
+          "message": { "type": "string", "example": "Game created" },
+          "response": { "$ref": "#/components/schemas/ResponseGameCreated" }
+        },
+        "required": ["status", "message", "response"]
+      },
+
+      "WrapperPutGame": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string", "example": "OK" },
+          "message": { "type": "string", "example": "Game updated" },
+          "response": { "$ref": "#/components/schemas/ResponseGameCreated" }
+        },
+        "required": ["status", "message", "response"]
+      },
+
+      "WrapperDeleteGame": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string", "example": "OK" },
+          "message": { "type": "string", "example": "Game deleted" },
+          "response": { "nullable": true, "example": null }
+        },
+        "required": ["status", "message", "response"]
+      },
+
+      "WrapperCategories": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "message": { "type": "string" },
+          "response": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/ResponseCategory" }
+          }
+        },
+        "required": ["status", "message", "response"]
+      },
+
+      "WrapperCategory": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "message": { "type": "string" },
+          "response": { "$ref": "#/components/schemas/ResponseCategory" }
+        },
+        "required": ["status", "message", "response"]
+      },
+
+      "WrapperNominations": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "message": { "type": "string" },
+          "response": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/ResponseNomination" }
+          }
+        },
+        "required": ["status", "message", "response"]
+      },
+
+      "WrapperGetGameGenres": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "message": { "type": "string" },
+          "response": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/ResponseGameGenres" }
+          }
+        },
+        "required": ["status", "message", "response"]
+      },
+
+      "WrapperGetGamePlatforms": {
+        "type": "object",
+        "properties": {
+          "status": { "type": "string" },
+          "message": { "type": "string" },
+          "response": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/ResponseGamePlatforms" }
+          }
+        },
+        "required": ["status", "message", "response"]
+      }
+    }
+  }
+}
