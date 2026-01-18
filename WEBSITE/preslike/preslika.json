@@ -1,0 +1,1230 @@
+[
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Action Game",
+    "opis": "Nagrada za najbolju igru koja se temelji prvenstveno na borbenom sustavu i akcijskom igranju.",
+    "naziv_igre": "Black Myth: Wukong",
+    "developer": "Game Science",
+    "izdavač": "Game Science",
+    "zemlja_podrijetla": "China",
+    "platforme": [
+      "PlayStation 5",
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Action",
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 90,
+    "pobjednik": true,
+    "napomena": "Akcijski RPG inspiriran kineskom mitologijom s impresivnim tehničkim postignućima."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Action Game",
+    "opis": "Nagrada za najbolju igru koja se temelji prvenstveno na borbenom sustavu i akcijskom igranju.",
+    "naziv_igre": "Call of Duty: Black Ops 6",
+    "developer": "Treyarch",
+    "izdavač": "Activision",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "First-person",
+      "Shooter"
+    ],
+    "prosjecna_ocjena_metacritic": 83,
+    "pobjednik": false,
+    "napomena": "Nastavak popularnog FPS serijala s fokusom na dinamičnu kampanju i višestruki multiplayer mod."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Action Game",
+    "opis": "Nagrada za najbolju igru koja se temelji prvenstveno na borbenom sustavu i akcijskom igranju.",
+    "naziv_igre": "Helldivers II",
+    "developer": "Arrowhead Game Studios",
+    "izdavač": "Sony Interactive Entertainment",
+    "zemlja_podrijetla": "Sweden",
+    "platforme": [
+      "PlayStation 5",
+      "Windows"
+    ],
+    "zanrovi": [
+      "Shooter",
+      "Third-person"
+    ],
+    "prosjecna_ocjena_metacritic": 86,
+    "pobjednik": false,
+    "napomena": "Kooperativni shooter s taktičkim izazovima i prijateljskim vatrom koji potiče suradnju igrača."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Action Game",
+    "opis": "Nagrada za najbolju igru koja se temelji prvenstveno na borbenom sustavu i akcijskom igranju.",
+    "naziv_igre": "Stellar Blade",
+    "developer": "Shift Up",
+    "izdavač": "Sony Interactive Entertainment",
+    "zemlja_podrijetla": "South Korea",
+    "platforme": [
+      "PlayStation 5"
+    ],
+    "zanrovi": [
+      "Action-adventure",
+      "Hack-and-slash"
+    ],
+    "prosjecna_ocjena_metacritic": 85,
+    "pobjednik": false,
+    "napomena": "Akcijska avantura s fokusom na preciznu borbu i vizualno impresivne animacije."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Action Game",
+    "opis": "Nagrada za najbolju igru koja se temelji prvenstveno na borbenom sustavu i akcijskom igranju.",
+    "naziv_igre": "Warhammer 40,000: Space Marine 2",
+    "developer": "Saber Interactive",
+    "izdavač": "Focus Entertainment",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "PlayStation 5",
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Hack-and-slash",
+      "Shooter",
+      "Third-person"
+    ],
+    "prosjecna_ocjena_metacritic": 84,
+    "pobjednik": false,
+    "napomena": "Nastavak klasične akcijske igre s intenzivnim borbama protiv hordâ neprijatelja."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Art Direction",
+    "opis": "Nagrada za izvrsnost u vizualnom dizajnu i umjetničkoj prezentaciji igre.",
+    "naziv_igre": "Astro Bot",
+    "developer": "Team Asobi",
+    "izdavač": "Sony Interactive Entertainment",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 5"
+    ],
+    "zanrovi": [
+      "Action-adventure",
+      "Platformer"
+    ],
+    "prosjecna_ocjena_metacritic": 91,
+    "pobjednik": false,
+    "napomena": "Šarmantna 3D avantura s preciznom kontrolom i kreativnim korištenjem DualSense mogućnosti."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Art Direction",
+    "opis": "Nagrada za izvrsnost u vizualnom dizajnu i umjetničkoj prezentaciji igre.",
+    "naziv_igre": "Black Myth: Wukong",
+    "developer": "Game Science",
+    "izdavač": "Game Science",
+    "zemlja_podrijetla": "China",
+    "platforme": [
+      "PlayStation 5",
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Action",
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 90,
+    "pobjednik": false,
+    "napomena": "Akcijski RPG inspiriran kineskom mitologijom s impresivnim tehničkim postignućima."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Art Direction",
+    "opis": "Nagrada za izvrsnost u vizualnom dizajnu i umjetničkoj prezentaciji igre.",
+    "naziv_igre": "Elden Ring: Shadow of the Erdtree",
+    "developer": "FromSoftware",
+    "izdavač": "Bandai Namco Entertainment",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Action",
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 94,
+    "pobjednik": false,
+    "napomena": "Velika ekspanzija nagrađivane igre, poznata po dubokom dizajnu svijeta i izazovnim borbama."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Art Direction",
+    "opis": "Nagrada za izvrsnost u vizualnom dizajnu i umjetničkoj prezentaciji igre.",
+    "naziv_igre": "Metaphor: ReFantazio",
+    "developer": "Atlus",
+    "izdavač": "Sega",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 88,
+    "pobjednik": true,
+    "napomena": "Pohvaljena zbog dubine svijeta, političke alegorije i složenog RPG sustava."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Art Direction",
+    "opis": "Nagrada za izvrsnost u vizualnom dizajnu i umjetničkoj prezentaciji igre.",
+    "naziv_igre": "Neva",
+    "developer": "Nomada Studio",
+    "izdavač": "Devolver Digital",
+    "zemlja_podrijetla": "Spain",
+    "platforme": [
+      "Nintendo Switch",
+      "PlayStation 5",
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Platformer",
+      "Puzzle"
+    ],
+    "prosjecna_ocjena_metacritic": 87,
+    "pobjednik": false,
+    "napomena": "Umjetnički platformer koji istražuje teme gubitka i emocionalne povezanosti."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Audio Design",
+    "opis": "Prepoznaje izvrsnost u dizajnu zvuka, glasovnim efektima i miksu.",
+    "naziv_igre": "Astro Bot",
+    "developer": "Team Asobi",
+    "izdavač": "Sony Interactive Entertainment",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 5"
+    ],
+    "zanrovi": [
+      "Action-adventure",
+      "Platformer"
+    ],
+    "prosjecna_ocjena_metacritic": 91,
+    "pobjednik": false,
+    "napomena": "Šarmantna 3D avantura s preciznom kontrolom i kreativnim korištenjem DualSense mogućnosti."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Audio Design",
+    "opis": "Prepoznaje izvrsnost u dizajnu zvuka, glasovnim efektima i miksu.",
+    "naziv_igre": "Call of Duty: Black Ops 6",
+    "developer": "Treyarch",
+    "izdavač": "Activision",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "First-person",
+      "Shooter"
+    ],
+    "prosjecna_ocjena_metacritic": 83,
+    "pobjednik": false,
+    "napomena": "Nastavak popularnog FPS serijala s fokusom na dinamičnu kampanju i višestruki multiplayer mod."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Audio Design",
+    "opis": "Prepoznaje izvrsnost u dizajnu zvuka, glasovnim efektima i miksu.",
+    "naziv_igre": "Final Fantasy VII Rebirth",
+    "developer": "Square Enix",
+    "izdavač": "Square Enix",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 5"
+    ],
+    "zanrovi": [
+      "Action",
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 92,
+    "pobjednik": false,
+    "napomena": "Nastavlja reinterpretaciju originalnog FF7 s modernim borbenim sustavom i vizualima."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Audio Design",
+    "opis": "Prepoznaje izvrsnost u dizajnu zvuka, glasovnim efektima i miksu.",
+    "naziv_igre": "Senua's Saga: Hellblade II",
+    "developer": "Ninja Theory",
+    "izdavač": "Xbox Game Studios",
+    "zemlja_podrijetla": "UK",
+    "platforme": [
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Action-adventure",
+      "Hack-and-slash"
+    ],
+    "prosjecna_ocjena_metacritic": 82,
+    "pobjednik": true,
+    "napomena": "Psihološka, kinematografska prezentacija perspektive Senuae."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Audio Design",
+    "opis": "Prepoznaje izvrsnost u dizajnu zvuka, glasovnim efektima i miksu.",
+    "naziv_igre": "Silent Hill 2",
+    "developer": "Bloober Team",
+    "izdavač": "Konami",
+    "zemlja_podrijetla": "Poland",
+    "platforme": [
+      "PlayStation 5",
+      "Windows"
+    ],
+    "zanrovi": [
+      "Survival-horror"
+    ],
+    "prosjecna_ocjena_metacritic": 81,
+    "pobjednik": false,
+    "napomena": "Remake klasika horor žanra s moderniziranom grafikom i atmosferom vjernom originalu."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Esports Game",
+    "opis": "Najbolja kompetitivna igra s aktivnom esports scenom.",
+    "naziv_igre": "Counter-Strike 2",
+    "developer": "Valve",
+    "izdavač": "Valve",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "macOS",
+      "Windows"
+    ],
+    "zanrovi": [
+      "First-person",
+      "Shooter",
+      "Tactical"
+    ],
+    "prosjecna_ocjena_metacritic": 80,
+    "pobjednik": false,
+    "napomena": "Nasljednik legendarne CS:GO igre, s moderniziranim motorom i natjecateljskim značajkama."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Esports Game",
+    "opis": "Najbolja kompetitivna igra s aktivnom esports scenom.",
+    "naziv_igre": "Dota 2",
+    "developer": "Valve",
+    "izdavač": "Valve",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "Linux",
+      "macOS",
+      "Windows"
+    ],
+    "zanrovi": [
+      "MOBA"
+    ],
+    "prosjecna_ocjena_metacritic": 90,
+    "pobjednik": false,
+    "napomena": "Kultna MOBA igra s najvećim esport nagradnim fondom i aktivnom zajednicom."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Esports Game",
+    "opis": "Najbolja kompetitivna igra s aktivnom esports scenom.",
+    "naziv_igre": "League of Legends",
+    "developer": "Riot Games",
+    "izdavač": "Riot Games",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "macOS",
+      "Windows"
+    ],
+    "zanrovi": [
+      "MOBA"
+    ],
+    "prosjecna_ocjena_metacritic": 78,
+    "pobjednik": true,
+    "napomena": "Jedan od najpopularnijih MOBA naslova, poznat po stalnim nadogradnjama i esport sceni."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Esports Game",
+    "opis": "Najbolja kompetitivna igra s aktivnom esports scenom.",
+    "naziv_igre": "Mobile Legends: Bang Bang",
+    "developer": "Moonton",
+    "izdavač": "Moonton",
+    "zemlja_podrijetla": "China",
+    "platforme": [
+      "Android",
+      "iOS"
+    ],
+    "zanrovi": [
+      "MOBA"
+    ],
+    "prosjecna_ocjena_metacritic": 75,
+    "pobjednik": false,
+    "napomena": "Najpopularniji mobilni MOBA naslov s velikom azijskom bazom igrača."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Esports Game",
+    "opis": "Najbolja kompetitivna igra s aktivnom esports scenom.",
+    "naziv_igre": "Valorant",
+    "developer": "Riot Games",
+    "izdavač": "Riot Games",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "Windows"
+    ],
+    "zanrovi": [
+      "Hero",
+      "Shooter",
+      "Tactical"
+    ],
+    "prosjecna_ocjena_metacritic": 85,
+    "pobjednik": false,
+    "napomena": "Taktički FPS koji kombinira precizno pucanje i jedinstvene sposobnosti agenata."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Independent Game",
+    "opis": "Najbolja igra nezavisnog studija.",
+    "naziv_igre": "Animal Well",
+    "developer": "Shared Memory",
+    "izdavač": "Bigmode",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "macOS",
+      "Nintendo Switch",
+      "PlayStation 5",
+      "Windows"
+    ],
+    "zanrovi": [
+      "Metroidvania",
+      "Puzzle"
+    ],
+    "prosjecna_ocjena_metacritic": 90,
+    "pobjednik": false,
+    "napomena": "Atmosferski indie metroidvania s pažljivo dizajniranim zagonetkama i tajnovitim svijetom."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Independent Game",
+    "opis": "Najbolja igra nezavisnog studija.",
+    "naziv_igre": "Balatro",
+    "developer": "LocalThunk",
+    "izdavač": "Playstack",
+    "zemlja_podrijetla": "UK",
+    "platforme": [
+      "Android",
+      "iOS",
+      "macOS",
+      "Nintendo Switch",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox One"
+    ],
+    "zanrovi": [
+      "Deck-building",
+      "Roguelike"
+    ],
+    "prosjecna_ocjena_metacritic": 89,
+    "pobjednik": true,
+    "napomena": "Indie kartaška roguelike igra poznata po dubokoj mehanici i visokoj ovisnosti."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Independent Game",
+    "opis": "Najbolja igra nezavisnog studija.",
+    "naziv_igre": "Lorelei and the Laser Eyes",
+    "developer": "Simogo",
+    "izdavač": "Annapurna Interactive",
+    "zemlja_podrijetla": "Sweden",
+    "platforme": [
+      "Nintendo Switch",
+      "Windows"
+    ],
+    "zanrovi": [
+      "Puzzle"
+    ],
+    "prosjecna_ocjena_metacritic": 88,
+    "pobjednik": false,
+    "napomena": "Apstraktna narativna zagonetka s fokusom na vizualnu simboliku i nelinearnu strukturu."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Independent Game",
+    "opis": "Najbolja igra nezavisnog studija.",
+    "naziv_igre": "Neva",
+    "developer": "Nomada Studio",
+    "izdavač": "Devolver Digital",
+    "zemlja_podrijetla": "Spain",
+    "platforme": [
+      "Nintendo Switch",
+      "PlayStation 5",
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Platformer",
+      "Puzzle"
+    ],
+    "prosjecna_ocjena_metacritic": 87,
+    "pobjednik": false,
+    "napomena": "Umjetnički platformer koji istražuje teme gubitka i emocionalne povezanosti."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Independent Game",
+    "opis": "Najbolja igra nezavisnog studija.",
+    "naziv_igre": "UFO 50",
+    "developer": "Mossmouth",
+    "izdavač": "Mossmouth",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "Windows"
+    ],
+    "zanrovi": [
+      "Various"
+    ],
+    "prosjecna_ocjena_metacritic": 85,
+    "pobjednik": false,
+    "napomena": "Kolekcija od 50 retro-stiliziranih igara koja istražuje različite žanrove i mehanike."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Narrative",
+    "opis": "Nagrada za najbolju priču i kvalitetu pripovijedanja.",
+    "naziv_igre": "Final Fantasy VII Rebirth",
+    "developer": "Square Enix",
+    "izdavač": "Square Enix",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 5"
+    ],
+    "zanrovi": [
+      "Action",
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 92,
+    "pobjednik": false,
+    "napomena": "Nastavlja reinterpretaciju originalnog FF7 s modernim borbenim sustavom i vizualima."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Narrative",
+    "opis": "Nagrada za najbolju priču i kvalitetu pripovijedanja.",
+    "naziv_igre": "Like a Dragon: Infinite Wealth",
+    "developer": "Ryu Ga Gotoku Studio",
+    "izdavač": "Sega",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 89,
+    "pobjednik": false,
+    "napomena": "Hvaljena zbog bogate priče, razvijenih likova i uspješne kombinacije drame, komedije i taktičkih borbi."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Narrative",
+    "opis": "Nagrada za najbolju priču i kvalitetu pripovijedanja.",
+    "naziv_igre": "Metaphor: ReFantazio",
+    "developer": "Atlus",
+    "izdavač": "Sega",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 88,
+    "pobjednik": true,
+    "napomena": "Pohvaljena zbog dubine svijeta, političke alegorije i složenog RPG sustava."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Narrative",
+    "opis": "Nagrada za najbolju priču i kvalitetu pripovijedanja.",
+    "naziv_igre": "Senua's Saga: Hellblade II",
+    "developer": "Ninja Theory",
+    "izdavač": "Xbox Game Studios",
+    "zemlja_podrijetla": "UK",
+    "platforme": [
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Action-adventure",
+      "Hack-and-slash"
+    ],
+    "prosjecna_ocjena_metacritic": 82,
+    "pobjednik": false,
+    "napomena": "Psihološka, kinematografska prezentacija perspektive Senuae."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Narrative",
+    "opis": "Nagrada za najbolju priču i kvalitetu pripovijedanja.",
+    "naziv_igre": "Silent Hill 2",
+    "developer": "Bloober Team",
+    "izdavač": "Konami",
+    "zemlja_podrijetla": "Poland",
+    "platforme": [
+      "PlayStation 5",
+      "Windows"
+    ],
+    "zanrovi": [
+      "Survival-horror"
+    ],
+    "prosjecna_ocjena_metacritic": 81,
+    "pobjednik": false,
+    "napomena": "Remake klasika horor žanra s moderniziranom grafikom i atmosferom vjernom originalu."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Ongoing Game",
+    "opis": "Nagrada za igru koja kontinuirano nudi novo iskustvo kroz ažuriranja i podršku zajednice.",
+    "naziv_igre": "Destiny 2: The Final Shape",
+    "developer": "Bungie",
+    "izdavač": "Bungie",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "First-person",
+      "MMOG",
+      "Shooter"
+    ],
+    "prosjecna_ocjena_metacritic": 83,
+    "pobjednik": false,
+    "napomena": "Veliko završno poglavlje dugogodišnjeg FPS MMO serijala."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Ongoing Game",
+    "opis": "Nagrada za igru koja kontinuirano nudi novo iskustvo kroz ažuriranja i podršku zajednice.",
+    "naziv_igre": "Diablo IV: Vessel of Hatred",
+    "developer": "Blizzard Entertainment",
+    "izdavač": "Blizzard Entertainment",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Action",
+      "Dungeon-crawler",
+      "Hack-and-slash",
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 88,
+    "pobjednik": false,
+    "napomena": "Ekspanzija s novim likovima, klasama i mračnim narativom karakterističnim za serijal."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Ongoing Game",
+    "opis": "Nagrada za igru koja kontinuirano nudi novo iskustvo kroz ažuriranja i podršku zajednice.",
+    "naziv_igre": "Final Fantasy XIV: Dawntrail",
+    "developer": "Square Enix",
+    "izdavač": "Square Enix",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "macOS",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "MMORPG"
+    ],
+    "prosjecna_ocjena_metacritic": 89,
+    "pobjednik": false,
+    "napomena": "Nova ekspanzija popularnog MMORPG-a koja donosi svjetliju i vedriju priču."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Ongoing Game",
+    "opis": "Nagrada za igru koja kontinuirano nudi novo iskustvo kroz ažuriranja i podršku zajednice.",
+    "naziv_igre": "Fortnite",
+    "developer": "Epic Games",
+    "izdavač": "Epic Games",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "Android",
+      "iOS",
+      "macOS",
+      "Nintendo Switch",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Battle-royale",
+      "Sandbox",
+      "Survival"
+    ],
+    "prosjecna_ocjena_metacritic": 85,
+    "pobjednik": false,
+    "napomena": "Stalno razvijajući battle royale s inovativnim suradnjama i kreativnim modovima."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Ongoing Game",
+    "opis": "Nagrada za igru koja kontinuirano nudi novo iskustvo kroz ažuriranja i podršku zajednice.",
+    "naziv_igre": "Helldivers II",
+    "developer": "Arrowhead Game Studios",
+    "izdavač": "Sony Interactive Entertainment",
+    "zemlja_podrijetla": "Sweden",
+    "platforme": [
+      "PlayStation 5",
+      "Windows"
+    ],
+    "zanrovi": [
+      "Shooter",
+      "Third-person"
+    ],
+    "prosjecna_ocjena_metacritic": 86,
+    "pobjednik": true,
+    "napomena": "Kooperativni shooter s taktičkim izazovima i prijateljskim vatrom koji potiče suradnju igrača."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Score and Music",
+    "opis": "Nagrada za najbolju originalnu glazbu, kompoziciju i produkciju zvuka.",
+    "naziv_igre": "Astro Bot",
+    "developer": "Team Asobi",
+    "izdavač": "Sony Interactive Entertainment",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 5"
+    ],
+    "zanrovi": [
+      "Action-adventure",
+      "Platformer"
+    ],
+    "prosjecna_ocjena_metacritic": 91,
+    "pobjednik": false,
+    "napomena": "Šarmantna 3D avantura s preciznom kontrolom i kreativnim korištenjem DualSense mogućnosti."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Score and Music",
+    "opis": "Nagrada za najbolju originalnu glazbu, kompoziciju i produkciju zvuka.",
+    "naziv_igre": "Final Fantasy VII Rebirth",
+    "developer": "Square Enix",
+    "izdavač": "Square Enix",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 5"
+    ],
+    "zanrovi": [
+      "Action",
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 92,
+    "pobjednik": true,
+    "napomena": "Nastavlja reinterpretaciju originalnog FF7 s modernim borbenim sustavom i vizualima."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Score and Music",
+    "opis": "Nagrada za najbolju originalnu glazbu, kompoziciju i produkciju zvuka.",
+    "naziv_igre": "Metaphor: ReFantazio",
+    "developer": "Atlus",
+    "izdavač": "Sega",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 88,
+    "pobjednik": false,
+    "napomena": "Pohvaljena zbog dubine svijeta, političke alegorije i složenog RPG sustava."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Score and Music",
+    "opis": "Nagrada za najbolju originalnu glazbu, kompoziciju i produkciju zvuka.",
+    "naziv_igre": "Silent Hill 2",
+    "developer": "Bloober Team",
+    "izdavač": "Konami",
+    "zemlja_podrijetla": "Poland",
+    "platforme": [
+      "PlayStation 5",
+      "Windows"
+    ],
+    "zanrovi": [
+      "Survival-horror"
+    ],
+    "prosjecna_ocjena_metacritic": 81,
+    "pobjednik": false,
+    "napomena": "Remake klasika horor žanra s moderniziranom grafikom i atmosferom vjernom originalu."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Best Score and Music",
+    "opis": "Nagrada za najbolju originalnu glazbu, kompoziciju i produkciju zvuka.",
+    "naziv_igre": "Stellar Blade",
+    "developer": "Shift Up",
+    "izdavač": "Sony Interactive Entertainment",
+    "zemlja_podrijetla": "South Korea",
+    "platforme": [
+      "PlayStation 5"
+    ],
+    "zanrovi": [
+      "Action-adventure",
+      "Hack-and-slash"
+    ],
+    "prosjecna_ocjena_metacritic": 85,
+    "pobjednik": false,
+    "napomena": "Akcijska avantura s fokusom na preciznu borbu i vizualno impresivne animacije."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Game of the Year",
+    "opis": "Igra koja je ostvarila najbolje ukupno iskustvo u svim kreativnim i tehničkim aspektima.",
+    "naziv_igre": "Astro Bot",
+    "developer": "Team Asobi",
+    "izdavač": "Sony Interactive Entertainment",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 5"
+    ],
+    "zanrovi": [
+      "Action-adventure",
+      "Platformer"
+    ],
+    "prosjecna_ocjena_metacritic": 91,
+    "pobjednik": true,
+    "napomena": "Šarmantna 3D avantura s preciznom kontrolom i kreativnim korištenjem DualSense mogućnosti."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Game of the Year",
+    "opis": "Igra koja je ostvarila najbolje ukupno iskustvo u svim kreativnim i tehničkim aspektima.",
+    "naziv_igre": "Balatro",
+    "developer": "LocalThunk",
+    "izdavač": "Playstack",
+    "zemlja_podrijetla": "UK",
+    "platforme": [
+      "Android",
+      "iOS",
+      "macOS",
+      "Nintendo Switch",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox One"
+    ],
+    "zanrovi": [
+      "Deck-building",
+      "Roguelike"
+    ],
+    "prosjecna_ocjena_metacritic": 89,
+    "pobjednik": false,
+    "napomena": "Indie kartaška roguelike igra poznata po dubokoj mehanici i visokoj ovisnosti."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Game of the Year",
+    "opis": "Igra koja je ostvarila najbolje ukupno iskustvo u svim kreativnim i tehničkim aspektima.",
+    "naziv_igre": "Black Myth: Wukong",
+    "developer": "Game Science",
+    "izdavač": "Game Science",
+    "zemlja_podrijetla": "China",
+    "platforme": [
+      "PlayStation 5",
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Action",
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 90,
+    "pobjednik": false,
+    "napomena": "Akcijski RPG inspiriran kineskom mitologijom s impresivnim tehničkim postignućima."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Game of the Year",
+    "opis": "Igra koja je ostvarila najbolje ukupno iskustvo u svim kreativnim i tehničkim aspektima.",
+    "naziv_igre": "Elden Ring: Shadow of the Erdtree",
+    "developer": "FromSoftware",
+    "izdavač": "Bandai Namco Entertainment",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Action",
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 94,
+    "pobjednik": false,
+    "napomena": "Velika ekspanzija nagrađivane igre, poznata po dubokom dizajnu svijeta i izazovnim borbama."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Game of the Year",
+    "opis": "Igra koja je ostvarila najbolje ukupno iskustvo u svim kreativnim i tehničkim aspektima.",
+    "naziv_igre": "Final Fantasy VII Rebirth",
+    "developer": "Square Enix",
+    "izdavač": "Square Enix",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 5"
+    ],
+    "zanrovi": [
+      "Action",
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 92,
+    "pobjednik": false,
+    "napomena": "Nastavlja reinterpretaciju originalnog FF7 s modernim borbenim sustavom i vizualima."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Game of the Year",
+    "opis": "Igra koja je ostvarila najbolje ukupno iskustvo u svim kreativnim i tehničkim aspektima.",
+    "naziv_igre": "Metaphor: ReFantazio",
+    "developer": "Atlus",
+    "izdavač": "Sega",
+    "zemlja_podrijetla": "Japan",
+    "platforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 88,
+    "pobjednik": false,
+    "napomena": "Pohvaljena zbog dubine svijeta, političke alegorije i složenog RPG sustava."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Innovation in Accessibility",
+    "opis": "Nagrada za najbolje implementirane značajke pristupačnosti koje olakšavaju igranje osobama s različitim sposobnostima.",
+    "naziv_igre": "Call of Duty: Black Ops 6",
+    "developer": "Treyarch",
+    "izdavač": "Activision",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "First-person",
+      "Shooter"
+    ],
+    "prosjecna_ocjena_metacritic": 83,
+    "pobjednik": false,
+    "napomena": "Nastavak popularnog FPS serijala s fokusom na dinamičnu kampanju i višestruki multiplayer mod."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Innovation in Accessibility",
+    "opis": "Nagrada za najbolje implementirane značajke pristupačnosti koje olakšavaju igranje osobama s različitim sposobnostima.",
+    "naziv_igre": "Diablo IV: Vessel of Hatred",
+    "developer": "Blizzard Entertainment",
+    "izdavač": "Blizzard Entertainment",
+    "zemlja_podrijetla": "USA",
+    "platforme": [
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Action",
+      "Dungeon-crawler",
+      "Hack-and-slash",
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 88,
+    "pobjednik": false,
+    "napomena": "Ekspanzija s novim likovima, klasama i mračnim narativom karakterističnim za serijal."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Innovation in Accessibility",
+    "opis": "Nagrada za najbolje implementirane značajke pristupačnosti koje olakšavaju igranje osobama s različitim sposobnostima.",
+    "naziv_igre": "Dragon Age: The Veilguard",
+    "developer": "BioWare",
+    "izdavač": "Electronic Arts",
+    "zemlja_podrijetla": "Canada",
+    "platforme": [
+      "PlayStation 5",
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Action",
+      "Role-playing"
+    ],
+    "prosjecna_ocjena_metacritic": 0,
+    "pobjednik": false,
+    "napomena": "Nadolazeći nastavak poznatog RPG serijala s fokusom na priču i likove."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Innovation in Accessibility",
+    "opis": "Nagrada za najbolje implementirane značajke pristupačnosti koje olakšavaju igranje osobama s različitim sposobnostima.",
+    "naziv_igre": "Prince of Persia: The Lost Crown",
+    "developer": "Ubisoft Montpellier",
+    "izdavač": "Ubisoft",
+    "zemlja_podrijetla": "France",
+    "platforme": [
+      "Nintendo Switch",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Windows",
+      "Xbox One",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Metroidvania"
+    ],
+    "prosjecna_ocjena_metacritic": 88,
+    "pobjednik": true,
+    "napomena": "Povratak klasičnog serijala u obliku 2.5D akcijske avanture s izvrsnim level dizajnom."
+  },
+  {
+    "godina": 2024,
+    "događaj": "The Game Awards 2024",
+    "lokacija_događaja": "Peacock Theater, Los Angeles, USA",
+    "voditelj": "Geoff Keighley",
+    "kategorija": "Innovation in Accessibility",
+    "opis": "Nagrada za najbolje implementirane značajke pristupačnosti koje olakšavaju igranje osobama s različitim sposobnostima.",
+    "naziv_igre": "Star Wars Outlaws",
+    "developer": "Massive Entertainment",
+    "izdavač": "Ubisoft",
+    "zemlja_podrijetla": "Sweden",
+    "platforme": [
+      "PlayStation 5",
+      "Windows",
+      "Xbox Series X/S"
+    ],
+    "zanrovi": [
+      "Action-adventure"
+    ],
+    "prosjecna_ocjena_metacritic": 0,
+    "pobjednik": false,
+    "napomena": "Open-world avantura smještena između Epizoda V i VI s fokusom na kriminalni svijet galaksije."
+  }
+]

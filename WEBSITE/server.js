@@ -1,21 +1,204 @@
 const express = require('express');
 const path = require('path');
 const { Pool } = require('pg');
+const fs = require('fs');
+const session = require('express-session');
+const { auth } = require('express-openid-connect');
 const app = express();
 
 const pool = new Pool({
   user: 'postgres',
   host: 'localhost',
   database: 'gameAwards',
-  password: 'bazepodataka',
+  password: 'baze podataka',
   port: 5432
 });
+
+app.use(session({
+  secret: 'Timmy',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { path: '/',
+            httpOnly: true, 
+            secure: false,  // set to true if using HTTPS
+            maxAge: 1000 * 60 * 60 * 1 // 1 hour
+          }
+}));
+
+const config = {
+  authRequired: false,
+  auth0Logout: true,
+  secret: 'uNKiYYqD3kfJQCsKK2H_Z3Lj90H-s5b2mh_-rVcxVAj8fgy0DG4CI2cEkFNDvRLf',
+  baseURL: 'http://localhost:3000',
+  clientID: 'HpFFUtPY00RVocHTtN6MOwGeyc0wEquB',
+  issuerBaseURL: 'https://dev-6kvo40ry415w68pk.us.auth0.com'
+};
+
+// auth router attaches /login, /logout, and /callback routes to the baseURL
+app.use(auth(config));
 
 // Express prepoznaj content-type od HTTP-zahtjeva
 app.use(express.json());
 // Default ucitaj index.html 
 app.use(express.static(path.join(__dirname, '.')));
 
+app.get('/me', (req, res) => {
+  try{
+    if (!req.oidc.isAuthenticated()) {
+      return res.json({
+        authenticated: false
+      });
+    }
+
+    res.json({
+      authenticated: true,
+      user: {
+        sid: req.oidc.user.sid,
+        nickname: req.oidc.user.nickname,
+        name: req.oidc.user.name,
+        picture: req.oidc.user.picture,
+        updated_at: req.oidc.user.updated_at,
+        email: req.oidc.user.email,
+        email_verified: req.oidc.user.email_verified,
+        sub: req.oidc.user.sub
+      }
+    });
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Greška u GET /me');
+  } 
+});
+
+// req.isAuthenticated is provided from the auth router
+app.get('/OAuthStatus', async (req,res) => {
+  try{
+    res.status(200).send(req.oidc.isAuthenticated() ? 'User is authenticated' : 'User is not authenticated');
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Greška u GET /OAuthStatus');
+  }
+});
+
+app.get('/profile', async (req, res) => {
+  try {
+    if (!req.oidc.isAuthenticated()) {
+      return res.status(401).json({
+        status: "Unauthorized",
+        message: "Morate se prijaviti za pristup profilu."
+      });
+    }
+    res.sendFile(path.join(__dirname, 'profile.html'));
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Greška u GET /profile');
+  }
+});
+
+function escapeCsv(value) {
+  if (value === null || value === undefined) return "";
+  const s = Array.isArray(value) ? JSON.stringify(value) : String(value);
+  // escape quotes by doubling them, wrap if contains comma/newline/quote
+  const needsWrap = /[,"\n]/.test(s);
+  const escaped = s.replace(/"/g, '""');
+  return needsWrap ? `"${escaped}"` : escaped;
+}
+
+function toCsv(rows) {
+  if (!rows || rows.length === 0) return "";
+  const headers = Object.keys(rows[0]);
+  const lines = [];
+  lines.push(headers.map(escapeCsv).join(","));
+  for (const row of rows) {
+    lines.push(headers.map(h => escapeCsv(row[h])).join(","));
+  }
+  return lines.join("\n");
+}
+
+app.get('/osvjeziPreslike', async (req, res) => {
+  try {
+    if (!req.oidc.isAuthenticated()) {
+      return res.status(401).json({
+        status: "Unauthorized",
+        message: "Morate se prijaviti za pristup profilu."
+      });
+    }
+
+    // Obavi rute koji ucitavaju novi JSON i CSV na server disk.
+    // 1) napravi folder ako ne postoji
+    const preslikeDir = path.join(__dirname, "preslike");
+    fs.mkdirSync(preslikeDir, { recursive: true });
+
+    // 2) dohvat podataka iz baze
+    const sql = `
+      SELECT d.GODINA 
+          , d.NAZIV as događaj 
+          , d.LOKACIJA as lokacija_događaja 
+          , d.VODITELJ 
+          , k.NAZIV as kategorija 
+          , k.OPIS 
+          , i.NAZIV_IGRE 
+          , i.DEVELOPER 
+          , i.IZDAVAC as izdavač 
+          , i.ZEMLJA_PODRIJETLA 
+          , COALESCE(array_agg(DISTINCT p.NAZIV), ARRAY[]::varchar[]) as platforme
+          , COALESCE(array_agg(DISTINCT z.NAZIV), ARRAY[]::varchar[]) as zanrovi
+          , i.PROSJECNA_OCJENA_METACRITIC as prosjecna_ocjena_metacritic 
+          , n.POBJEDNIK 
+          , i.NAPOMENA
+      FROM dogadaj d
+      JOIN kategorije k      ON k.dogadajid      = d.id
+      JOIN nominacije n      ON n.kategorija_id  = k.id
+      JOIN igre i            ON i.id             = n.igra_id
+      LEFT JOIN platforme_igre pi ON pi.igra_id  = i.id
+      LEFT JOIN platforme p   ON p.id            = pi.platformeid
+      LEFT JOIN zanr_igre zi  ON zi.igra_id      = i.id
+      LEFT JOIN zanr z        ON z.id            = zi.zanr_id
+      GROUP BY 
+        d.GODINA,
+        d.NAZIV,
+        d.LOKACIJA,
+        d.VODITELJ,
+        k.NAZIV,
+        k.OPIS,
+        i.NAZIV_IGRE,
+        i.DEVELOPER,
+        i.IZDAVAC,
+        i.ZEMLJA_PODRIJETLA,
+        i.PROSJECNA_OCJENA_METACRITIC,
+        n.POBJEDNIK,
+        i.NAPOMENA
+      ORDER BY 
+        d.GODINA,
+        k.NAZIV,
+        i.NAZIV_IGRE;
+    `;
+
+    const result = await pool.query(sql);
+    const rows = result.rows;
+    
+    // 3) upiši na disk (overwrite)
+    const jsonPath = path.join(preslikeDir, "preslika.json");
+    const csvPath  = path.join(preslikeDir, "preslika.csv");
+
+    fs.writeFileSync(jsonPath, JSON.stringify(rows, null, 2), "utf8");
+    fs.writeFileSync(csvPath, toCsv(rows), "utf8");
+    
+    // Posalji alert "Osvjezena preslika."
+    // 5) odgovor
+    return res.status(200).json({
+      status: "OK",
+      message: "Preslike su osvježene.",
+      response: {
+        json: "/preslike/preslika.json",
+        csv: "/preslike/preslika.csv",
+        rows: rows.length
+      }
+    });
+  } catch (err) {
+    console.error(err);
+    res.status(500).send('Greška u GET /osvjeziPreslike');
+  }
+});
 
 app.get('/datatable', async (req, res) => {
   try {
@@ -142,10 +325,28 @@ app.get('/api/v1/igre/:id', async (req, res) => {
       });
     }
 
+    // 4. Linking Data
+    const game = result.rows[0];
+
+    const gameJsonLd = {
+      "@context": {
+        "@vocab": "https://schema.org/",
+        "naziv_igre": "name",
+        "developer": "creator",
+        "izdavač": "publisher",
+        "zemlja_podrijetla": "countryOfOrigin",
+        "zanrovi": "genre",
+        "platforme": "gamePlatform",
+        "napomena": "description"
+      },
+      "@type": "VideoGame",
+      ...game
+    };
+
     return res.status(200).json({
       status: "OK",
       message: "Fetched game",
-      response: result.rows[0]
+      response: gameJsonLd
     });
 
   } catch (err) {

@@ -1,0 +1,73 @@
+/* --- TOPBAR --- */
+#topbar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  column-gap: 200px;
+
+  padding: 24px 16px 12px 16px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+
+  border: 1px solid #000000;
+  border-radius: 0px;
+
+  background: linear-gradient(180deg, #1a1a1a, #121212);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+
+#topbar a {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 10px;
+
+  color: #f9d65c;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+
+  background: rgba(255, 215, 0, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+#topbar a:hover {
+  background: rgba(255, 215, 0, 0.12);
+  box-shadow: 0 8px 18px rgba(212, 175, 55, 0.15);
+  transform: translateY(-1px);
+}
+
+#topbar #login-link {
+  color: #121212;
+  background: linear-gradient(135deg, #d48537, #b85c0b);
+  border-color: transparent;
+}
+
+#topbar #login-link:hover {
+  background: linear-gradient(135deg, #ffcf4d, #c9a42e);
+}
+
+#topbar #logout-link {
+  border-color: rgba(255, 120, 120, 0.35);
+  color: #ffb3b3;
+  background: rgba(255, 120, 120, 0.08);
+}
+
+#topbar #logout-link:hover {
+  background: rgba(255, 120, 120, 0.14);
+  box-shadow: 0 8px 18px rgba(255, 120, 120, 0.12);
+}
+
+#topbar .topbar-left   { justify-self: start; }
+#topbar .topbar-center { justify-self: center; }
+#topbar .topbar-right  { justify-self: end; }
+
+#topbar .topbar-left,
+#topbar .topbar-center,
+#topbar .topbar-right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}

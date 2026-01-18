@@ -6,99 +6,18 @@
     <title>Game Awards 2024 – Otvoreni skup podataka</title>
     <meta name="description”" content="Otvorena baza podataka na temu događaja The Game Awards 2024. Skup podataka prikazuje nominirane igre, njihove kategorije, žanrove, platforme i osnovne informacije povezane s događajem The Game Awards 2024.">
     <meta name="author" content="Antonio Gospodnetić">
-    <style>
-        body {
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            margin: 40px auto;
-            max-width: 900px;
-            line-height: 1.7;
-            color: #f4f1e9;
-            background-color: #121212;
-            background-image: radial-gradient(circle at top, #1e1e1e, #0c0c0c);
-        }
-
-        h1, h2 {
-            color: #d4af37; /* gold accent */
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        h1 {
-            border-bottom: 3px solid #d4af37;
-            padding-bottom: 0.3em;
-        }
-
-        a {
-            color: #f9d65c;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: #ffe684;
-            text-shadow: 0 0 5px #d4af37;
-        }
-
-        ul {
-            list-style: disc;
-            margin-left: 25px;
-        }
-
-        code {
-            background-color: #1e1e1e;
-            color: #ffea8a;
-            padding: 2px 4px;
-            border-radius: 4px;
-            font-size: 0.95em;
-        }
-
-        div, ul, p {
-            margin-bottom: 1em;
-        }
-
-        .gold-button {
-            display: inline-block;
-            background: linear-gradient(135deg, #d4af37, #b8860b);
-            color: #121212;
-            padding: 12px 24px;
-            border: none;
-            border-radius: 8px;
-            font-weight: 700;
-            font-size: 1em;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            box-shadow: 0 4px 10px rgba(212, 175, 55, 0.4);
-        }
-
-        .gold-button:hover {
-            background: linear-gradient(135deg, #ffcf4d, #c9a42e);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 12px rgba(255, 215, 0, 0.6);
-        }
-
-        .gold-button:active {
-            transform: translateY(0);
-            box-shadow: 0 3px 8px rgba(212, 175, 55, 0.4);
-        }
-
-        .downloads {
-            background-color: #1a1a1a;
-            padding: 1em;
-            border-radius: 8px;
-            border: 1px solid #3a3a3a;
-        }
-
-        footer {
-            margin-top: 3em;
-            border-top: 1px solid #444;
-            padding-top: 1em;
-            font-size: 0.9em;
-            color: #aaa;
-            text-align: center;
-        }
-    </style>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/public/styles_home.css">
+    <link rel="stylesheet" href="/public/styles_topbar.css">
 </head>
 <body>
-    <h1>Game Awards 2024 – Otvoreni skup podataka</h1>
+    <nav id="topbar">   
+        <div class="topbar-left"></div>
+        <div class="topbar-center"></div>
+        <div class="topbar-right"></div>
+    </nav>
+
+    <h1 id="OpeningTitle">Game Awards 2024 – Otvoreni skup podataka</h1>
 
     <h2>Opis</h2>
     <p>Otvorena baza podataka na temu događaja <strong>The Game Awards 2024</strong>. 
@@ -145,10 +64,11 @@
         </ul>
     </div>
 
-    <h2>Dostupni oblici podataka</h2>
+    <h2>Preuzmite datoteke</h2>
     <ul>
-        <li><a href="../data/GameAwards2024.csv">Preuzmi CSV</a></li>
-        <li><a href="../data/GameAwards2024.json">Preuzmi JSON</a></li>
+        <li><a href="preslike/preslika.csv">Preuzmi CSV</a></li>
+        <li><a href="preslike/preslika.json">Preuzmi JSON</a></li>
+        <p style="color:gray">| Prijavite se za osvjezavanje CSV i JSON preslika</p>
     </ul>
 
     <h2>Kontekst i namjena</h2>
@@ -167,4 +87,5 @@
         <li>GitHub za verzioniranje i objavu otvorenih podataka</li>
     </ul>
 </body>
+    <script src="/topbar.js"></script>
 </html>
